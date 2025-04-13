@@ -1,0 +1,137 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="hero-content">
+        <h1 class="animate-fade-in">Discover Unique Accessories</h1>
+        <p class="animate-fade-in delay-200">Express your style with our handcrafted collection</p>
+        <a href="/Home/Products" class="btn btn-primary btn-lg animate-fade-in delay-400 btn-animated">Shop Now</a>
+    </div>
+</section>
+
+<!-- Featured Categories -->
+<section class="featured-categories">
+    <div class="container">
+        <h2 class="section-title reveal">Shop by Category</h2>
+        <div class="row g-4">
+            <div class="col-6 col-md-3">
+                <div class="category-card reveal-left">
+                    <img src="~/images/pexels-karolina-grabowska-5201935.jpg" alt="Necklaces">
+                    <h3>Necklaces</h3>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="category-card reveal-left delay-200">
+                    <img src="~/images/pexels-juliasakelli-1342502.jpg" alt="Earrings">
+                    <h3>Earrings</h3>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="category-card reveal-right delay-200">
+                    <img src="~/images/pexels-leah-newhouse-50725-325527.jpg" alt="Bracelets">
+                    <h3>Bracelets</h3>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="category-card reveal-right">
+                    <img src="~/images/pexels-mrreporter-865635.jpg" alt="Rings">
+                    <h3>Rings</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Products -->
+<section class="featured-products">
+    <div class="container">
+        <h2 class="section-title reveal">Featured Products</h2>
+        <div class="row g-4">
+
+            <div class="col-6 col-md-3 reveal-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="~/images/homeMain.jpg" alt="Product 1">
+                        <button class="favorite-btn" data-product-id="1"><i class="far fa-heart"></i></button>
+                        <div class="product-actions">
+                            <button class="btn btn-primary add-to-cart" data-product-id="1">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Crystal Pendant Necklace</h3>
+                        <p class="price">EGP 299.99</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3 reveal-up delay-100">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="~/images/pexels-content-prod-co-5594288.jpg" alt="Product 2">
+                        <button class="favorite-btn" data-product-id="2"><i class="far fa-heart"></i></button>
+                        <div class="product-actions">
+                            <button class="btn btn-primary add-to-cart" data-product-id="2">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Pearl Drop Earrings</h3>
+                        <p class="price">EGP 199.99</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more products as needed -->
+              <div class="col-6 col-md-3 reveal-up delay-100">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="~/images/pexels-content-prod-co-5594288.jpg" alt="Product 2">
+                        <button class="favorite-btn" data-product-id="2"><i class="far fa-heart"></i></button>
+                        <div class="product-actions">
+                            <button class="btn btn-primary add-to-cart" data-product-id="2">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Pearl Drop Earrings</h3>
+                        <p class="price">EGP 199.99</p>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-6 col-md-3 reveal-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="~/images/homeMain.jpg" alt="Product 1">
+                        <button class="favorite-btn" data-product-id="1"><i class="far fa-heart"></i></button>
+                        <div class="product-actions">
+                            <button class="btn btn-primary add-to-cart" data-product-id="1">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Crystal Pendant Necklace</h3>
+                        <p class="price">EGP 299.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter Section -->
+<section class="newsletter-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center reveal">
+                <h2>Join Our Newsletter</h2>
+                <p>Subscribe to get special offers and updates about our new products</p>
+                <form class="newsletter-form">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button class="btn btn-primary btn-animated" type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

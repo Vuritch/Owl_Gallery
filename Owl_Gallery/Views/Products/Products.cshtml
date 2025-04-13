@@ -1,0 +1,218 @@
+﻿
+@{
+    ViewData["Title"] = "Products";
+}
+
+<!-- Mobile Search -->
+<div class="mobile-search d-lg-none">
+    <div class="container">
+        <div class="search-box">
+            <input type="text" class="form-control" placeholder="Search products...">
+            <button class="btn"><i class="fas fa-search"></i></button>
+            <div class="search-results">
+                <!-- Search results will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Page Header -->
+<div class="page-header">
+    <div class="container">
+        <h1 class="animate-on-scroll">All Products</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb animate-on-scroll">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Shop All</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<!-- Products Section -->
+<section class="products-section">
+    <div class="container">
+        <div class="row">
+            <!-- Filters Sidebar -->
+            <div class="col-lg-3">
+                <div class="filters-sidebar animate-on-scroll">
+                    <div class="d-flex justify-content-between align-items-center d-lg-none mb-3">
+                        <h5 class="mb-0">Filters</h5>
+                        <button class="btn-close" id="closeFilters"></button>
+                    </div>
+
+                    <div class="filter-group">
+                        <h5>Categories</h5>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="necklaces" name="category" id="necklaces">
+                            <label class="form-check-label" for="necklaces">
+                                Necklaces
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="earrings" name="category" id="earrings">
+                            <label class="form-check-label" for="earrings">
+                                Earrings
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="bracelets" name="category" id="bracelets">
+                            <label class="form-check-label" for="bracelets">
+                                Bracelets
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="rings" name="category" id="rings">
+                            <label class="form-check-label" for="rings">
+                                Rings
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h5>Price Range</h5>
+                        <div class="price-slider">
+                            <div class="d-flex justify-content-between">
+                                <span>EGP 0</span>
+                                <span>EGP 1000</span>
+                            </div>
+                            <input type="range" class="form-range" min="0" max="1000" step="10" id="priceRange" value="1000">
+                            <div class="price-inputs d-flex align-items-center mt-2">
+                                <input type="number" class="form-control form-control-sm" placeholder="Min" min="0">
+                                <span class="mx-2">-</span>
+                                <input type="number" class="form-control form-control-sm" placeholder="Max" max="1000" value="1000">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h5>Material</h5>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="gold" name="material" id="gold">
+                            <label class="form-check-label" for="gold">
+                                Gold
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="silver" name="material" id="silver">
+                            <label class="form-check-label" for="silver">
+                                Silver
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="platinum" name="material" id="platinum">
+                            <label class="form-check-label" for="platinum">
+                                Platinum
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="stainlessSteel" name="material" id="stainlessSteel">
+                            <label class="form-check-label" for="stainlessSteel">
+                                Stainless Steel
+                            </label>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary w-100 mt-3">Apply Filters</button>
+                    <button class="btn btn-outline-secondary w-100 mt-2">Reset</button>
+                </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="col-lg-9">
+                <div class="products-header d-flex justify-content-between align-items-center mb-4 animate-on-scroll">
+                    <button class="btn btn-outline-secondary d-lg-none" id="showFilters">
+                        <i class="fas fa-filter me-2"></i> Filters
+                    </button>
+
+                    <div class="d-flex align-items-center ms-auto">
+                        <label for="sortOptions" class="me-2">Sort by:</label>
+                        <select class="form-select form-select-sm" id="sortOptions">
+                            <option value="featured">Featured</option>
+                            <option value="newest">Newest</option>
+                            <option value="priceAsc">Price: Low to High</option>
+                            <option value="priceDesc">Price: High to Low</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row g-4" id="productsGrid">
+                    <!-- Product cards will be dynamically generated here -->
+                </div>
+
+                <!-- Pagination -->
+                <nav aria-label="Product pagination" class="mt-5">
+                    <ul class="pagination justify-content-center animate-on-scroll">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--footer-->
+<footer class="bg-light">
+    <div class="container py-5">
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <h5>About Owl Gallery</h5>
+                <p>Discover unique and stylish accessories that reflect your personality. We offer a carefully curated collection of handcrafted jewelry and accessories.</p>
+            </div>
+            <div class="col-lg-2">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shipping</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <h5>Categories</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Necklaces</a></li>
+                    <li><a href="#">Earrings</a></li>
+                    <li><a href="#">Bracelets</a></li>
+                    <li><a href="#">Rings</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h5>Connect With Us</h5>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center py-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2023 Owl Gallery. All rights reserved.
+    </div>
+</footer>
+<!--footer-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<!-- AOS library for scroll animations -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    // Initialize AOS
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+</script>

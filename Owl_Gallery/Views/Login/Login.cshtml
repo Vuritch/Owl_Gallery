@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+<!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1>My Account</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="@Url.Action("Index", "Index")">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Login</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+ <!-- Auth Section -->
+    <section class="auth-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-8">
+                    <div class="auth-container">
+                        <!-- Auth Tabs -->
+                       <div class="auth-tabs">
+                        <a class="auth-tab active" href="@Url.Action("Login", "Login")">Login</a>
+                        <a class="auth-tab" href="@Url.Action("Register", "Register")">Register</a>
+                    </div>
+
+                        <!-- Login Form -->
+                        <div class="auth-form-container" id="loginForm">
+                            <div class="auth-welcome">
+                                <h2>Welcome Back</h2>
+                                <p>Sign in to access your account, view your orders, and manage your profile.</p>
+                            </div>
+
+                            <form class="auth-form">
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="loginEmail" placeholder="name@example.com" required>
+                                    <label for="loginEmail">Email address</label>
+                                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                                </div>
+
+                                <div class="form-floating mb-3 password-field">
+                                    <input type="password" class="form-control" id="loginPassword" placeholder="Password" required>
+                                    <label for="loginPassword">Password</label>
+                                    <button type="button" class="password-toggle">
+                                        <i class="far fa-eye"></i>
+                                    </button>
+                                    <div class="invalid-feedback">Please enter your password.</div>
+                                </div>
+
+                                <div class="d-flex justify-content-between align-items-center mb-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="rememberMe">
+                                        <label class="form-check-label" for="rememberMe">
+                                            Remember me
+                                        </label>
+                                    </div>
+                                    <a href="#" class="forgot-password">Forgot password?</a>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary w-100 mb-4">Sign In</button>
+
+                                <div class="social-login">
+                                    <p class="text-center mb-3">Or sign in with</p>
+                                    <div class="social-buttons">
+                                        <button type="button" class="btn btn-outline-secondary social-btn">
+                                            <i class="fab fa-google"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-outline-secondary social-btn">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-outline-secondary social-btn">
+                                            <i class="fab fa-apple"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div class="auth-footer">
+                                <p>Don't have an account? <a href="#" class="switch-form" data-form="register">Register now</a></p>
+                            </div>
+                        </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
