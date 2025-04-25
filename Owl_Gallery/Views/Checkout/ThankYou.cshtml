@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Thank You";
+}
+
+<div class="container py-5 text-center">
+    <h1 class="display-4 text-owl-purple">Thank you for your order!</h1>
+    <p class="lead">We’ve received your order and are getting it ready to ship. You’ll receive an email confirmation shortly.</p>
+    <a asp-controller="Index" asp-action="Index" class="btn btn-owl btn-lg mt-4">
+        Back to Home
+    </a>
+</div>
+
+<style>
+    .text-owl-purple {
+        color: #5d16c1;
+    }
+
+    .btn-owl {
+        background: #5d16c1;
+        color: #fff;
+        padding: .75rem 1.5rem;
+        font-weight: 600;
+        border-radius: .375rem;
+    }
+</style>

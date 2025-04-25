@@ -1,0 +1,198 @@
+﻿@using System.Security.Claims
+@inject Owl_Gallery.Data.ApplicationDbContext _ctx
+
+@{
+    // 1) Signed-in?
+    var user = Context.User;
+    bool signedIn = user?.Identity?.IsAuthenticated == true;
+
+    // 2) Pull out their numeric ID + first name (if signed in)
+    int userId = 0;
+    string? firstName = null;
+    if (signedIn)
+    {
+        userId = int.Parse(user.FindFirstValue(ClaimTypes.NameIdentifier)!);
+        firstName = user.FindFirstValue(ClaimTypes.Name)?.Split(' ').FirstOrDefault();
+    }
+
+    // 3) DB counts
+    int favCount = signedIn
+        ? _ctx.Favorites.Count(f => f.UserId == userId)
+        : 0;
+    int cartCount = signedIn
+        ? _ctx.CartItems.Count(c => c.UserId == userId)
+        : 0;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] – Owl_Gallery</title>
+
+    <!-- Bootstrap & your CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/animations.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/auth.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/cart-favorites.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/products.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Owl_Gallery.styles.css" asp-append-version="true" />
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <style>
+        /* push page content down so fixed-top navbar doesn’t cover it */
+        body {
+            padding-top: 70px;
+        }
+    </style>
+</head>
+<body data-login-url="@Url.Action("Login", "Login")">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-light bg-light fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+
+            <!-- Brand -->
+            <a class="navbar-brand me-4" href="@Url.Action("Index","Index")">
+                <img src="~/images/logo.jpg" alt="Owl Gallery Logo" height="40" />
+            </a>
+
+            <!-- DESKTOP SEARCH -->
+            <form class="search-box d-none d-lg-flex position-relative"
+                  method="get" action="/Products/Products">
+                <input name="search" type="text" class="form-control" placeholder="Search products…" />
+                <button class="btn"><i class="fas fa-search"></i></button>
+                <div class="search-results position-absolute bg-white border w-100"
+                     style="max-height:300px;overflow-y:auto;z-index:1055;"></div>
+            </form>
+
+            <!-- mobile hamburger -->
+            <button class="navbar-toggler ms-auto" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- MOBILE SEARCH -->
+            <div class="mobile-search d-lg-none">
+                <form class="search-box position-relative"
+                      method="get" action="/Products/Products">
+                    <input name="search" type="text" class="form-control"
+                           placeholder="Search products…" />
+                    <button class="btn"><i class="fas fa-search"></i></button>
+                    <div class="search-results position-absolute bg-white border w-100"
+                         style="max-height:300px;overflow-y:auto;z-index:1055;"></div>
+                </form>
+            </div>
+
+            <!-- Offcanvas menu -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1">
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Index","Index")">NEW IN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Products","Products")">SHOP ALL</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">CATEGORIES</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="@Url.Action("Products","Products", new { category="Necklaces" })">Necklaces</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("Products","Products", new { category="Earrings"  })">Earrings</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("Products","Products", new { category="Bracelets" })">Bracelets</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("Products","Products", new { category="Rings"     })">Rings</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Products","Products", new { filter="collections" })">COLLECTIONS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Products","Products", new { filter="sale" })">SALE</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- RIGHT-HAND ICONS -->
+            <div class="d-flex align-items-center ms-3">
+
+                <!-- country/currency -->
+                <div class="dropdown country-select d-none d-lg-block me-3">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        <img src="~/images/egypt_flag.jpg" class="flag-icon" alt="Egypt" /> EGP
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"><img src="~/images/egypt_flag.jpg" class="flag-icon" /> EGP</a></li>
+                    </ul>
+                </div>
+
+                @* Account / Logout *@
+                @if (!signedIn)
+                {
+                    <a class="nav-icon me-3" href="@Url.Action("Login","Login")">
+                        <i class="fas fa-user"></i>
+                    </a>
+                }
+                else
+                {
+                    <span class="navbar-text me-3 fw-semibold text-owl">
+                        Welcome, @firstName!
+                    </span>
+                    <form asp-controller="Login" asp-action="Logout" method="post" class="me-3">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-link nav-icon p-0" title="Logout">
+                            <i class="fas fa-sign-out-alt"></i>
+                        </button>
+                    </form>
+                }
+
+                @* Favorites *@
+                <a class="nav-icon me-3" href="@Url.Action("Index","Favorites")">
+                    <i class="fas fa-heart"></i>
+                    @if (signedIn)
+                    {
+                        <span class="badge bg-secondary">@favCount</span>
+                    }
+                </a>
+
+                @* Cart *@
+                <a class="nav-icon" href="@Url.Action("Index","Cart")">
+                    <i class="fas fa-shopping-cart"></i>
+                    @if (signedIn)
+                    {
+                        <span class="badge bg-secondary">@cartCount</span>
+                    }
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            © 2025 – Owl_Gallery – <a asp-controller="Privacy" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/main.js" asp-append-version="true"></script>
+    <script src="~/js/search.js" asp-append-version="true"></script>
+    <script src="~/js/animations.js" asp-append-version="true"></script>
+    <script src="~/js/auth.js" asp-append-version="true"></script>
+    <script src="~/js/cart-favorites.js" asp-append-version="true"></script>
+    <script src="~/js/products.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
