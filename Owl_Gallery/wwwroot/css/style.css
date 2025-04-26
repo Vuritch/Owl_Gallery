@@ -1029,6 +1029,61 @@
     right: 20px;
   }
 }
+.navbar-hidden {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+}
+.search-container {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#search-input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--results-bg);
+    border: 1px solid var(--border-color);
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+    z-index: 1000;
+}
+.navbar {
+    margin-bottom: 0 !important;
+    box-shadow: none !important;
+    border-bottom: none !important;
+}
+
+.search-result-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+    .search-result-item:hover {
+        background-color: var(--hover-bg);
+    }
+
+/* Theme Variables */
+:root {
+    --results-bg: #fff;
+    --border-color: #ccc;
+    --hover-bg: #f0f0f0;
+}
+
+body.dark-mode {
+    --results-bg: #333;
+    --border-color: #555;
+    --hover-bg: #444;
+}
 
 @media (max-width: 576px) {
   .search-results {
@@ -1047,4 +1102,136 @@
   .section-title {
     font-size: 1.5rem;
   }
+}
+/* Hero Section Enhancement */
+.hero-section {
+    background: linear-gradient(rgba(93, 22, 193, 0.3), rgba(0, 0, 0, 0.7)), url('/images/hero-bg.jpg') center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+    padding: 2rem;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    animation: fadeInUp 1.2s ease-in-out;
+}
+
+/* Call to action button glow */
+.btn-owl {
+    background-color: #5d16c1;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 18px rgba(93, 22, 193, 0.3);
+    transition: all 0.3s ease;
+}
+
+    .btn-owl:hover {
+        background-color: #4a0fb2;
+        box-shadow: 0 0 28px rgba(93, 22, 193, 0.5);
+        transform: scale(1.03);
+    }
+
+/* Counters Section */
+.counters-section .counter-item {
+    background: #fff;
+    padding: 2rem 1rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(93, 22, 193, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.counter-item:hover {
+    transform: translateY(-5px);
+}
+
+.counter-item .icon {
+    transition: transform 0.3s ease;
+}
+
+.counter-item:hover .icon {
+    transform: scale(1.2);
+}
+
+/* Product Card Enhancements */
+.luxury-card {
+    height: 100%;
+    border-radius: 16px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+    .luxury-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 24px rgba(93, 22, 193, 0.2);
+    }
+
+.luxury-card-img img {
+    height: 240px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.luxury-card:hover img {
+    transform: scale(1.05);
+}
+
+/* Carousel Enhancements */
+.trending-carousel .carousel-item img {
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Newsletter Enhancements */
+.newsletter-section {
+    background: linear-gradient(135deg, #5d16c1 0%, #3d0e99 100%);
+    border-radius: 20px;
+    padding: 4rem 1rem;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+    .newsletter-section .form-control {
+        border-radius: 30px 0 0 30px;
+        border: none;
+        padding: 1rem;
+    }
+
+    .newsletter-section .btn {
+        border-radius: 0 30px 30px 0;
+        font-weight: 600;
+        padding: 1rem 2rem;
+        transition: background-color 0.3s ease, transform 0.2s;
+    }
+
+        .newsletter-section .btn:hover {
+            background-color: #4a0fb2;
+            transform: scale(1.05);
+        }
+
+/* Utility */
+.reveal.visible,
+.reveal-up.visible {
+    opacity: 1;
+    transform: none;
+}
+.btn-glow {
+    animation: glowPulse 2.4s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+    0%, 100% {
+        box-shadow: 0 0 18px rgba(93, 22, 193, 0.2);
+    }
+
+    50% {
+        box-shadow: 0 0 28px rgba(93, 22, 193, 0.5);
+    }
 }

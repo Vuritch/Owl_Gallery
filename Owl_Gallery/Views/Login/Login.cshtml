@@ -8,11 +8,8 @@
 
     <!-- TAB BAR -->
     <div class="auth-tabs">
-        <a class="auth-tab @(isLogin ? "active" : "")"
-           href="@Url.Action("Login","Login")">Login</a>
-
-        <a class="auth-tab @(!isLogin ? "active" : "")"
-           href="@Url.Action("Register","Register")">Register</a>
+        <a class="auth-tab @(isLogin ? "active" : "")" href="@Url.Action("Login","Login")">Login</a>
+        <a class="auth-tab @(!isLogin ? "active" : "")" href="@Url.Action("Register","Register")">Register</a>
 
         <!-- purple slider -->
         <div class="tab-slider" style="transform:translateX(@(isLogin?0:100)%);"></div>
@@ -25,6 +22,47 @@
         <!-- displays “Invalid e-mail or password.” -->
         <div asp-validation-summary="All" class="text-danger mb-3"></div>
 
+        <!-- Google Sign-in -->
+        <div class="mt-4 text-center">
+            <p class="text-muted mb-3">Or continue with</p>
+            <a class="btn btn-google w-100 d-flex align-items-center justify-content-center gap-2"
+               href="@Url.Action("GoogleLogin", "ExternalLogin")">
+                <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google Logo" width="20" height="20">
+                <span>Sign in with Google</span>
+            </a>
+        </div>
+        <style>
+            .btn-google {
+                background-color: white;
+                color: #555;
+                border: 1px solid #ddd;
+                padding: 0.6rem 1rem;
+                font-weight: 600;
+                border-radius: 0.5rem;
+                transition: all 0.3s ease;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            }
+
+                .btn-google:hover {
+                    background-color: #f7f7f7;
+                    border-color: #ccc;
+                    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+                    text-decoration: none;
+                }
+
+                .btn-google img {
+                    margin-right: 0.5rem;
+                }
+        </style>
+
+
+        <div class="d-flex align-items-center my-4">
+            <hr class="flex-grow-1" />
+            <span class="px-2 small text-muted">OR</span>
+            <hr class="flex-grow-1" />
+        </div>
+
+        <!-- Normal Login Form -->
         <form asp-controller="Login" asp-action="Login" method="post" novalidate>
             @Html.AntiForgeryToken()
 
@@ -40,7 +78,7 @@
                 <span asp-validation-for="Password" class="text-danger small"></span>
             </div>
 
-            <!-- Remember Me checkbox -->
+            <!-- Remember Me -->
             <div class="form-check mb-3">
                 <input asp-for="RememberMe" class="form-check-input" id="rememberMeCheck" />
                 <label asp-for="RememberMe" class="form-check-label" for="rememberMeCheck">Remember me</label>
@@ -59,3 +97,21 @@
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
+
+<style>
+    .btn-google {
+        background: white;
+        color: #444;
+        border: 1px solid #ddd;
+        border-radius: 50px;
+        font-weight: 500;
+        transition: 0.3s;
+        padding: 0.5rem 1rem;
+    }
+
+        .btn-google:hover {
+            background: #f8f8f8;
+            border-color: #bbb;
+            color: #222;
+        }
+</style>

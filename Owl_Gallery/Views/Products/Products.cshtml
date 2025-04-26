@@ -156,17 +156,32 @@
                     {
                         bool isFav = favSet.Contains(p.Id);
                         <div class="col" data-aos="zoom-in">
-                            <div class="card h-100 shadow-sm">
+                            <div class="card h-100 shadow-sm position-relative overflow-hidden">
+
+                                @* SOLD OUT Badge in Top Corner *@
+                                @if (p.Quantity == 0)
+                                {
+                                    <div class="sold-out-badge">Sold Out</div>
+                                }
+
                                 <img src="@p.ImageUrl"
                                      class="card-img-top"
                                      alt="@p.Name" />
 
                                 <div class="card-body d-flex flex-column">
                                     <h6 class="card-title">@p.Name</h6>
-                                    <p class="fw-semibold mb-3">
+
+                                    <p class="fw-semibold mb-2">
                                         EGP @p.Price.ToString("F2")
                                     </p>
 
+                                    @* Fading Animation for Low Stock Warning *@
+                                    @if (p.Quantity < 10 && p.Quantity > 0)
+                                    {
+                                        <span class="low-stock-badge animate-blink mb-2">
+                                            Only @p.Quantity left!
+                                        </span>
+                                    }
 
                                     <a asp-controller="Products"
                                        asp-action="Details"
@@ -178,7 +193,6 @@
                                     <div class="d-flex gap-2 mt-auto">
                                         @if (signedIn)
                                         {
-                                            @* Toggle favorite *@
                                             @if (isFav)
                                             {
                                                 <form asp-controller="Favorites"
@@ -210,19 +224,22 @@
                                                 </form>
                                             }
 
-                                            @* Add to cart *@
-                                            <form asp-controller="Cart"
-                                                  asp-action="Add"
-                                                  method="post"
-                                                  class="flex-fill">
-                                                @Html.AntiForgeryToken()
-                                                <input name="productId" type="hidden" value="@p.Id" />
-                                                <button type="submit"
-                                                        class="btn btn-owl w-100"
-                                                        title="Add to Cart">
+                                            @if (p.Quantity > 0)
+                                            {
+                                                <form asp-controller="Cart" asp-action="Add" method="post" class="w-50">
+                                                    @Html.AntiForgeryToken()
+                                                    <input type="hidden" name="productId" value="@p.Id" />
+                                                    <button type="submit" class="btn btn-purple btn-glow w-100 py-2">
+                                                        <i class="fas fa-shopping-cart"></i>
+                                                    </button>
+                                                </form>
+                                            }
+                                            else
+                                            {
+                                                <button class="btn btn-secondary w-50" disabled>
                                                     <i class="fas fa-shopping-cart"></i>
                                                 </button>
-                                            </form>
+                                            }
                                         }
                                         else
                                         {
@@ -243,6 +260,45 @@
                         </div>
                     }
                 </div>
+                <style>
+                    /* Sold Out badge */
+                    .sold-out-badge {
+                        position: absolute;
+                        top: 0.75rem;
+                        left: 0.75rem;
+                        background: #dc3545;
+                        color: white;
+                        font-weight: bold;
+                        padding: 0.3rem 0.6rem;
+                        font-size: 0.75rem;
+                        border-radius: 0.5rem;
+                        z-index: 5;
+                    }
+
+                    /* Light blinking animation for "Only X left" */
+                    .animate-blink {
+                        animation: blinkFade 1.5s infinite;
+                        font-size: 0.8rem;
+                        background: #ffc107;
+                        color: #333;
+                        padding: 0.25rem 0.5rem;
+                        border-radius: 0.5rem;
+                        display: inline-block;
+                    }
+
+                    @@keyframes blinkFade {
+                        0%, 100%
+
+                    {
+                        opacity: 1;
+                    }
+
+                    50% {
+                        opacity: 0.4;
+                    }
+
+                    }
+                </style>
 
                 <!-- Pagination (placeholder) -->
                 <nav class="mt-5 pagination justify-content-center" data-aos="fade-up">
@@ -269,11 +325,116 @@
         .btn-owl:hover {
             background: #38158d;
         }
+
+    body.dark-mode .page-header {
+        background-color: #1a1a1a;
+        border-radius: 1rem;
+        padding: 2rem;
+    }
+
+        body.dark-mode .page-header h1 {
+            color: #fff;
+        }
+
+    body.dark-mode .breadcrumb a {
+        color: #bb86fc;
+    }
+
+    body.dark-mode .breadcrumb-item.active {
+        color: #ddd;
+    }
+
+    body.dark-mode .filters-sidebar {
+        background-color: #1f1f1f !important;
+        border: 1px solid #333;
+        color: #ccc;
+    }
+
+        body.dark-mode .filters-sidebar label,
+        body.dark-mode .filters-sidebar .form-check-label {
+            color: #ccc;
+        }
+
+        body.dark-mode .filters-sidebar .form-control,
+        body.dark-mode .filters-sidebar .form-select {
+            background-color: #2b2b2b;
+            color: #eee;
+            border-color: #444;
+        }
+
+            body.dark-mode .filters-sidebar .form-control::placeholder {
+                color: #888;
+            }
+
+        body.dark-mode .filters-sidebar .btn {
+            background-color: #5d16c1;
+            color: white;
+            border: none;
+        }
+
+        body.dark-mode .filters-sidebar .btn-outline-secondary {
+            border-color: #6c6c6c;
+            color: #ccc;
+        }
+
+            body.dark-mode .filters-sidebar .btn-outline-secondary:hover {
+                background-color: #5d16c1;
+                color: white;
+            }
+
+    body.dark-mode .card {
+        background-color: #1e1e1e;
+        color: #f0f0f0;
+        border: 1px solid #333;
+    }
+
+    body.dark-mode .card-body h6 {
+        color: #fff;
+    }
+
+    body.dark-mode .btn-outline-secondary {
+        border-color: #aaa;
+        color: #ddd;
+    }
+
+        body.dark-mode .btn-outline-secondary:hover {
+            background-color: #5d16c1;
+            color: #fff;
+        }
+
+    body.dark-mode .btn-outline-danger {
+        border-color: #a94442;
+        color: #f88;
+    }
+
+        body.dark-mode .btn-outline-danger:hover {
+            background-color: #a94442;
+            color: #fff;
+        }
+
+    body.dark-mode .btn-purple {
+        background-color: #5d16c1;
+        color: #fff;
+    }
+
+    body.dark-mode .pagination .page-link {
+        background-color: #1e1e1e;
+        color: #ccc;
+        border-color: #333;
+    }
+
+    body.dark-mode .pagination .page-item.active .page-link {
+        background-color: #5d16c1;
+        border-color: #5d16c1;
+        color: white;
+    }
 </style>
 
 @section Scripts {
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+
         AOS.init({ duration: 800, once: true });
     </script>
+
 }

@@ -1,7 +1,7 @@
 wwwroot\css\animations.css
 wwwroot\css\auth.css
 wwwroot\css\bootstrap.min.css
-wwwroot\css\cart-favorites.css
+wwwroot\css\dark-mode.css
 wwwroot\css\products.css
 wwwroot\css\site.css
 wwwroot\css\style.css
@@ -18,11 +18,7 @@ wwwroot\images\us_flag.jpg
 wwwroot\js\animations.js
 wwwroot\js\auth.js
 wwwroot\js\bootstrap.bundle.min.js
-wwwroot\js\cart-favorites.js
-wwwroot\js\main.js
-wwwroot\js\products.js
 wwwroot\js\search.js
-wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

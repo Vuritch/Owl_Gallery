@@ -715,6 +715,22 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.Google/8.0.15": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/2.3.0": {
         "type": "package",
         "compile": {
@@ -4085,6 +4101,21 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.xml",
         "microsoft.aspnetcore.authentication.core.2.3.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Google/8.0.15": {
+      "sha512": "AjlL4AAfH7UZ1L4wYxUABd50aD2E1svyqa02fpsjMcjX3utqvHXwBceIyrI4X9ulfzRytE/BcbV2QTzn73/93w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.google/8.0.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.xml",
+        "microsoft.aspnetcore.authentication.google.8.0.15.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.google.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/2.3.0": {
@@ -8662,6 +8693,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.Authentication.Cookies >= 2.3.0",
+      "Microsoft.AspNetCore.Authentication.Google >= 8.0.15",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.15",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.4",
@@ -8676,11 +8708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\omara\\Desktop\\Owl_Gallery_MVC\\Owl_Gallery\\Owl_Gallery\\Owl_Gallery.csproj",
+      "projectUniqueName": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\Owl_Gallery.csproj",
       "projectName": "Owl_Gallery",
-      "projectPath": "C:\\Users\\omara\\Desktop\\Owl_Gallery_MVC\\Owl_Gallery\\Owl_Gallery\\Owl_Gallery.csproj",
+      "projectPath": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\Owl_Gallery.csproj",
       "packagesPath": "C:\\Users\\omara\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\omara\\Desktop\\Owl_Gallery_MVC\\Owl_Gallery\\Owl_Gallery\\obj\\",
+      "outputPath": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8722,6 +8754,10 @@
           "Microsoft.AspNetCore.Authentication.Cookies": {
             "target": "Package",
             "version": "[2.3.0, )"
+          },
+          "Microsoft.AspNetCore.Authentication.Google": {
+            "target": "Package",
+            "version": "[8.0.15, )"
           },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",

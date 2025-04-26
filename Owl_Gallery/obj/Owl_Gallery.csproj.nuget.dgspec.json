@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omara\\Desktop\\Owl_Gallery_MVC\\Owl_Gallery\\Owl_Gallery\\Owl_Gallery.csproj": {}
+    "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\Owl_Gallery.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omara\\Desktop\\Owl_Gallery_MVC\\Owl_Gallery\\Owl_Gallery\\Owl_Gallery.csproj": {
+    "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\Owl_Gallery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omara\\Desktop\\Owl_Gallery_MVC\\Owl_Gallery\\Owl_Gallery\\Owl_Gallery.csproj",
+        "projectUniqueName": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\Owl_Gallery.csproj",
         "projectName": "Owl_Gallery",
-        "projectPath": "C:\\Users\\omara\\Desktop\\Owl_Gallery_MVC\\Owl_Gallery\\Owl_Gallery\\Owl_Gallery.csproj",
+        "projectPath": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\Owl_Gallery.csproj",
         "packagesPath": "C:\\Users\\omara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omara\\Desktop\\Owl_Gallery_MVC\\Owl_Gallery\\Owl_Gallery\\obj\\",
+        "outputPath": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,10 @@
             "Microsoft.AspNetCore.Authentication.Cookies": {
               "target": "Package",
               "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[8.0.15, )"
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",

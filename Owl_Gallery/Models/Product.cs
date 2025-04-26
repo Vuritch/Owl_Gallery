@@ -16,5 +16,7 @@ namespace Owl_Gallery.Models
 
         [Required, MaxLength(250)]
         public string ImageUrl { get; set; }
+        public int Quantity { get; set; }
+
     }
 }

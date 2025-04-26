@@ -1,60 +1,53 @@
-﻿/* wwwroot/js/search.js */
-document.addEventListener("DOMContentLoaded", () => {
-    const inputs = document.querySelectorAll(".search-box input");
-    const outputs = document.querySelectorAll(".search-results");
-    let products = null; // cache
+﻿document.addEventListener('DOMContentLoaded', () => {
+    const input = document.getElementById('searchInput');
+    const dropdown = document.getElementById('searchDropdown');
+    const liveResults = document.getElementById('liveResults');
+    let timeout;
 
-    // highlight matched term
-    const hl = (txt, term) =>
-        txt.replace(new RegExp(`(${term})`, "ig"),
-            '<span class="hl">$1</span>');
+    // Show dropdown on focus
+    input.addEventListener('focus', () => {
+        dropdown.style.display = 'block';
+    });
 
-    // render up to 6 hits
-    function render(hits, box, term) {
-        box.innerHTML = hits.length
-            ? hits.slice(0, 6).map(p => `
-                <a href="/Products/Details/${p.id}"
-                   class="d-flex align-items-center p-2 text-decoration-none text-dark">
-                    <img src="${p.image}" width="40" height="40"
-                         class="me-2 rounded" alt="${p.name}">
-                    <div>
-                        <div>${hl(p.name, term)}</div>
-                        <small class="text-muted">
-                            ${hl(p.cat, term)} – EGP ${p.price.toFixed(2)}
-                        </small>
-                    </div>
-                </a>`).join("")
-            : `<p class="text-muted p-2 mb-0">No results</p>`;
-    }
+    // Handle input typing
+    input.addEventListener('input', () => {
+        clearTimeout(timeout);
+        const query = input.value.trim();
 
-    // fetch products from your API once
-    function ensureProducts(cb) {
-        if (products) return cb();
-        fetch("/api/products/all")
-            .then(r => r.json())
-            .then(data => { products = data; cb(); })
-            .catch(_ => { products = []; cb(); });
-    }
+        if (!query) {
+            liveResults.innerHTML = `<small class="text-muted">Start typing to search...</small>`;
+            return;
+        }
 
-    // attach live-search to every input
-    inputs.forEach((inp, i) => {
-        inp.addEventListener("input", () => ensureProducts(() => {
-            const term = inp.value.trim().toLowerCase();
-            const hits = term
-                ? products.filter(p =>
-                    p.name.toLowerCase().includes(term) ||
-                    p.cat.toLowerCase().includes(term))
-                : [];
-            render(hits, outputs[i], term);
-        }));
+        // Delay the fetch for smoother UX
+        timeout = setTimeout(async () => {
+            try {
+                const res = await fetch(`/Products/SearchLive?query=${encodeURIComponent(query)}`);
+                const data = await res.json();
 
-        // hide on blur
-        inp.addEventListener("blur", () =>
-            setTimeout(() => outputs[i].innerHTML = "", 150));
+                if (data.length === 0) {
+                    liveResults.innerHTML = `<small class="text-muted">No results found.</small>`;
+                    return;
+                }
 
-        // prevent Enter from “submitting” the form if you want only live
-        inp.addEventListener("keydown", e => {
-            if (e.key === "Enter") e.preventDefault();
-        });
+                // Build result HTML
+                liveResults.innerHTML = data.map(p => `
+                    <a class="list-group-item list-group-item-action text-dark dark-mode-search-link"
+                       href="/Products/Details/${p.id}">
+                        <i class="fas fa-search me-2 text-purple"></i> ${p.name}
+                        <small class="d-block text-muted">${p.category}</small>
+                    </a>
+                `).join('');
+            } catch (error) {
+                liveResults.innerHTML = `<small class="text-danger">Error loading results.</small>`;
+            }
+        }, 300);
+    });
+
+    // Hide dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!dropdown.contains(e.target) && !input.contains(e.target)) {
+            dropdown.style.display = 'none';
+        }
     });
 });

@@ -3,210 +3,238 @@
 
 @{
     ViewData["Title"] = "Secure Checkout";
-    // get the logged-in user’s name for the banner (if any)
-    var first = User.Identity?.IsAuthenticated == true
-        ? User.FindFirstValue(ClaimTypes.Name)?.Split(' ').FirstOrDefault()
-        : null;
 }
 
 <div class="container my-5">
-    @* optional welcome banner *@
-    @if (!string.IsNullOrEmpty(first))
-    {
-        <div class="alert alert-success text-center mb-4">
-            👋 Welcome back, <strong>@first</strong>!
-        </div>
-    }
-
-    <div class="card shadow-sm">
-        <div class="card-body p-4">
-            <h1 class="card-title text-center mb-4">Secure Checkout</h1>
-
-            @* step indicator *@
-            <ul class="nav nav-pills nav-fill mb-4" id="checkoutSteps">
+    <div class="card border-0 shadow-sm">
+        <div class="card-header bg-transparent text-center">
+            <h1 class="display-5 fw-bold text-owl-purple">Secure Checkout</h1>
+            <ul class="nav nav-pills nav-justified stepper mt-4">
                 <li class="nav-item">
-                    <span class="nav-link active" data-step="0">1. Shipping</span>
+                    <a href="#" class="nav-link step" data-step="0">1. Shipping</a>
                 </li>
                 <li class="nav-item">
-                    <span class="nav-link disabled" data-step="1">2. Payment</span>
+                    <a href="#" class="nav-link step disabled" data-step="1">2. Payment</a>
                 </li>
                 <li class="nav-item">
-                    <span class="nav-link disabled" data-step="2">3. Review</span>
+                    <a href="#" class="nav-link step disabled" data-step="2">3. Review</a>
                 </li>
             </ul>
+        </div>
 
-            <div class="row">
-                <div class="col-lg-7">
-                    <form asp-controller="Checkout"
-                          asp-action="PlaceOrder"
-                          method="post"
-                          novalidate>
-                        @Html.AntiForgeryToken()
+        <div class="card-body p-4">
 
-                        @* --- STEP 1: SHIPPING --- *@
-                        <div class="step-content" data-step="0">
-                            <h4 class="text-owl-purple mb-3">Shipping Information</h4>
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <label asp-for="Shipping.FirstName" class="form-label">First name</label>
-                                    <input asp-for="Shipping.FirstName" class="form-control form-control-lg" />
-                                    <span asp-validation-for="Shipping.FirstName" class="text-danger"></span>
-                                </div>
-                                <div class="col-md-6">
-                                    <label asp-for="Shipping.LastName" class="form-label">Last name</label>
-                                    <input asp-for="Shipping.LastName" class="form-control form-control-lg" />
-                                    <span asp-validation-for="Shipping.LastName" class="text-danger"></span>
-                                </div>
-                                <div class="col-12">
-                                    <label asp-for="Shipping.Address1" class="form-label">Address line 1</label>
-                                    <input asp-for="Shipping.Address1" class="form-control form-control-lg" />
-                                    <span asp-validation-for="Shipping.Address1" class="text-danger"></span>
-                                </div>
-                                <div class="col-12">
-                                    <label asp-for="Shipping.Address2" class="form-label">
-                                        Address line 2 <small class="text-muted">(optional)</small>
-                                    </label>
-                                    <input asp-for="Shipping.Address2" class="form-control form-control-lg" />
-                                </div>
-                                <div class="col-md-4">
-                                    <label asp-for="Shipping.City" class="form-label">City</label>
-                                    <input asp-for="Shipping.City" class="form-control form-control-lg" />
-                                    <span asp-validation-for="Shipping.City" class="text-danger"></span>
-                                </div>
-                                <div class="col-md-4">
-                                    <label asp-for="Shipping.State" class="form-label">State</label>
-                                    <input asp-for="Shipping.State" class="form-control form-control-lg" />
-                                    <span asp-validation-for="Shipping.State" class="text-danger"></span>
-                                </div>
-                                <div class="col-md-4">
-                                    <label asp-for="Shipping.PostalCode" class="form-label">Postal code</label>
-                                    <input asp-for="Shipping.PostalCode" class="form-control form-control-lg" />
-                                    <span asp-validation-for="Shipping.PostalCode" class="text-danger"></span>
-                                </div>
-                                <div class="col-12">
-                                    <label asp-for="Shipping.Country" class="form-label">Country</label>
-                                    <input asp-for="Shipping.Country" class="form-control form-control-lg" />
-                                    <span asp-validation-for="Shipping.Country" class="text-danger"></span>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-between mt-4">
-                                <button type="button" class="btn btn-outline-secondary" id="prev1" disabled>Back</button>
-                                <button type="button" class="btn btn-primary" id="next1">Next</button>
-                            </div>
+            <div id="stepValidationSummary" class="alert alert-danger d-none text-center"></div>
+
+            <form id="checkoutForm" asp-action="PlaceOrder" method="post" novalidate>
+                @Html.AntiForgeryToken()
+
+                <!-- STEP 1: SHIPPING -->
+                <div class="step-content" data-step="0">
+                    <h4 class="text-owl-purple mb-3">Shipping Information</h4>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label asp-for="Shipping.FirstName" class="form-label">First name</label>
+                            <input asp-for="Shipping.FirstName" class="form-control form-control-lg" required />
+                            <span asp-validation-for="Shipping.FirstName" class="text-danger small"></span>
                         </div>
-
-                        @* --- STEP 2: PAYMENT --- *@
-                        <div class="step-content d-none" data-step="1">
-                            <h4 class="text-owl-purple mb-3">Payment Details</h4>
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <label asp-for="Payment.CardName" class="form-label">Name on card</label>
-                                    <input asp-for="Payment.CardName" class="form-control form-control-lg" />
-                                    <span asp-validation-for="Payment.CardName" class="text-danger"></span>
-                                </div>
-                                <div class="col-md-6">
-                                    <label asp-for="Payment.CardNumber" class="form-label">Card number</label>
-                                    <input asp-for="Payment.CardNumber" class="form-control form-control-lg" />
-                                    <span asp-validation-for="Payment.CardNumber" class="text-danger"></span>
-                                </div>
-                                <div class="col-md-6">
-                                    <label asp-for="Payment.Expiry" class="form-label">Expiry (MM/YY)</label>
-                                    <input asp-for="Payment.Expiry" class="form-control form-control-lg" />
-                                    <span asp-validation-for="Payment.Expiry" class="text-danger"></span>
-                                </div>
-                                <div class="col-md-6">
-                                    <label asp-for="Payment.Cvc" class="form-label">CVC</label>
-                                    <input asp-for="Payment.Cvc" class="form-control form-control-lg" />
-                                    <span asp-validation-for="Payment.Cvc" class="text-danger"></span>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-between mt-4">
-                                <button type="button" class="btn btn-outline-secondary" id="prev2">Back</button>
-                                <button type="button" class="btn btn-primary" id="next2">Next</button>
-                            </div>
+                        <div class="col-md-6">
+                            <label asp-for="Shipping.LastName" class="form-label">Last name</label>
+                            <input asp-for="Shipping.LastName" class="form-control form-control-lg" required />
+                            <span asp-validation-for="Shipping.LastName" class="text-danger small"></span>
                         </div>
-
-                        @* --- STEP 3: REVIEW & CONFIRM --- *@
-                        <div class="step-content d-none" data-step="2">
-                            <h4 class="text-owl-purple mb-3">Review &amp; Confirm</h4>
-                            <div class="order-preview mb-4">
-                                @foreach (var item in Model.CartItems)
-                                {
-                                    <div class="d-flex justify-content-between py-2 border-bottom">
-                                        <div>
-                                            <strong>@item.Product.Name</strong>
-                                            <small class="text-muted">× @item.Quantity</small>
-                                        </div>
-                                        <div>EGP @String.Format("{0:F2}", item.Product.Price * item.Quantity)</div>
-                                    </div>
-                                }
-                                <div class="d-flex justify-content-between pt-3 fw-bold">
-                                    <span>Total</span>
-                                    <span>EGP @String.Format("{0:F2}", Model.Total)</span>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-between mt-4">
-                                <button type="button" class="btn btn-outline-secondary" id="prev3">Back</button>
-                                <button type="submit" class="btn btn-success">Place Order</button>
-                            </div>
+                        <div class="col-12">
+                            <label asp-for="Shipping.Address1" class="form-label">Address line 1</label>
+                            <input asp-for="Shipping.Address1" class="form-control form-control-lg" required />
+                            <span asp-validation-for="Shipping.Address1" class="text-danger small"></span>
                         </div>
-                    </form>
-                </div>
-
-                @*  RIGHT-HAND: ORDER SUMMARY STICKY *@
-                <div class="col-lg-5">
-                    <div class="card p-4 shadow-sm sticky-top" style="top:2rem;">
-                        <h5 class="mb-3">Order Summary</h5>
-                        @foreach (var item in Model.CartItems)
-                        {
-                            <div class="d-flex align-items-center mb-3">
-                                <img src="@item.Product.ImageUrl"
-                                     alt="@item.Product.Name"
-                                     width="60" class="me-3 rounded" />
-                                <div class="flex-grow-1">
-                                    <div class="fw-semibold">@item.Product.Name</div>
-                                    <small class="text-muted">× @item.Quantity</small>
-                                </div>
-                                <div class="fw-bold">
-                                    EGP @String.Format("{0:F2}", item.Product.Price * item.Quantity)
-                                </div>
-                            </div>
-                        }
-                        <hr />
-                        <div class="d-flex justify-content-between fw-semibold">
-                            <span>Total</span>
-                            <span>EGP @String.Format("{0:F2}", Model.Total)</span>
+                        <div class="col-12">
+                            <label asp-for="Shipping.Address2" class="form-label">Address line 2</label>
+                            <input asp-for="Shipping.Address2" class="form-control form-control-lg" required />
+                            <span asp-validation-for="Shipping.Address2" class="text-danger small"></span>
+                        </div>
+                        <div class="col-md-4">
+                            <label asp-for="Shipping.City" class="form-label">City</label>
+                            <input asp-for="Shipping.City" class="form-control form-control-lg" required />
+                            <span asp-validation-for="Shipping.City" class="text-danger small"></span>
+                        </div>
+                        <div class="col-md-4">
+                            <label asp-for="Shipping.State" class="form-label">State</label>
+                            <input asp-for="Shipping.State" class="form-control form-control-lg" required />
+                            <span asp-validation-for="Shipping.State" class="text-danger small"></span>
+                        </div>
+                        <div class="col-md-4">
+                            <label asp-for="Shipping.PostalCode" class="form-label">Postal code</label>
+                            <input asp-for="Shipping.PostalCode" class="form-control form-control-lg" required />
+                            <span asp-validation-for="Shipping.PostalCode" class="text-danger small"></span>
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="Shipping.Country" class="form-label">Country</label>
+                            <input asp-for="Shipping.Country" class="form-control form-control-lg" required />
+                            <span asp-validation-for="Shipping.Country" class="text-danger small"></span>
                         </div>
                     </div>
+                    <div class="d-flex justify-content-between mt-4">
+                        <button type="button" class="btn btn-outline-secondary px-4" id="prevBtn" disabled>Back</button>
+                        <button type="button" class="btn btn-owl px-4" id="nextBtn">Next</button>
+                    </div>
                 </div>
-            </div>
+
+                <!-- STEP 2: PAYMENT -->
+                <div class="step-content d-none" data-step="1">
+                    <h4 class="text-owl-purple mb-3">Payment Details</h4>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label asp-for="Payment.CardName" class="form-label">Name on card</label>
+                            <input asp-for="Payment.CardName" class="form-control form-control-lg" required />
+                            <span asp-validation-for="Payment.CardName" class="text-danger small"></span>
+                        </div>
+                        <div class="col-md-6 position-relative">
+                            <label asp-for="Payment.CardNumber" class="form-label">Card number</label>
+                            <input asp-for="Payment.CardNumber" id="cardNumber" class="form-control form-control-lg"
+                                   maxlength="19" placeholder="xxxx xxxx xxxx xxxx" required />
+                            <small class="form-text text-muted">16 digits, spaces auto-removed</small>
+                            <small id="cardCount" class="form-text text-muted">0 / 16</small>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="Payment.Expiry" class="form-label">Expiry (MM/YY)</label>
+                            <input asp-for="Payment.Expiry" class="form-control form-control-lg"
+                                   maxlength="5" placeholder="MM/YY" required />
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="Payment.Cvc" class="form-label">CVC</label>
+                            <input asp-for="Payment.Cvc" class="form-control form-control-lg"
+                                   maxlength="3" placeholder="123" required />
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-4">
+                        <button type="button" class="btn btn-outline-secondary px-4" id="prevBtn">Back</button>
+                        <button type="button" class="btn btn-owl px-4" id="nextBtn">Next</button>
+                    </div>
+                </div>
+
+                <!-- STEP 3: REVIEW -->
+                <div class="step-content d-none" data-step="2">
+                    <h4 class="text-owl-purple mb-3">Review & Confirm</h4>
+                    <div class="order-preview mb-4">
+                        @foreach (var item in Model.CartItems)
+                        {
+                            <div class="d-flex justify-content-between py-2 border-bottom">
+                                <div>
+                                    <strong>@item.Product.Name</strong>
+                                    <small class="text-muted">× @item.Quantity</small>
+                                </div>
+                                <div>EGP @($"{item.Product.Price * item.Quantity:F2}")</div>
+                            </div>
+                        }
+                        <div class="d-flex justify-content-between pt-3 fw-bold fs-5">
+                            <span>Total</span>
+                            <span>EGP @($"{Model.Total:F2}")</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-4">
+                        <button type="button" class="btn btn-outline-secondary px-4" id="prevBtn">Back</button>
+                        <button type="submit" class="btn btn-success px-4">Place Order</button>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </div>
 
 @section Scripts {
-    <partial name="_ValidationScriptsPartial" />
     <script>
-        const steps = document.querySelectorAll('.step-content');
-        const tabs  = document.querySelectorAll('#checkoutSteps .nav-link');
-        let current = 0;
+        document.addEventListener("DOMContentLoaded", () => {
+            const steps = document.querySelectorAll(".stepper .step");
+            const contents = Array.from(document.querySelectorAll(".step-content"));
+            const summary = document.getElementById("stepValidationSummary");
+            const cardInput = document.getElementById("cardNumber");
+            const cardCount = document.getElementById("cardCount");
+            let current = 0;
 
-        function showStep(n) {
-            steps.forEach((el,i) => el.classList.toggle('d-none', i !== n));
-            tabs.forEach((tab,i) => {
-                tab.classList.toggle('active', !tab.classList.contains('disabled') && i === n);
-                tab.classList.toggle('disabled', i !== n);
+            function showStep(n) {
+                current = n;
+                contents.forEach((c, i) => c.classList.toggle("d-none", i !== n));
+                steps.forEach((s, i) => {
+                    s.classList.toggle("active", i === n);
+                    s.classList.toggle("disabled", i > n);
+                });
+                document.querySelectorAll("#prevBtn").forEach(b => b.disabled = (n === 0));
+                summary.classList.add("d-none");
+            }
+
+            function firstInvalid(inputs) {
+                for (let i of inputs) if (!i.checkValidity()) return i;
+                return null;
+            }
+
+            function isValidCardNumber(value) {
+                const digits = value.replace(/\D/g, '');
+                return /^\d{16}$/.test(digits);
+            }
+
+            function isValidExpiry(value) {
+                if (!/^\d{2}\/\d{2}$/.test(value)) return false;
+                const [month, year] = value.split('/').map(Number);
+                if (month < 1 || month > 12) return false;
+                const now = new Date();
+                const currentYear = parseInt(now.getFullYear().toString().slice(-2));
+                const currentMonth = now.getMonth() + 1;
+                return (year > currentYear || (year === currentYear && month >= currentMonth));
+            }
+
+            document.querySelectorAll("#nextBtn").forEach(btn =>
+                btn.addEventListener("click", () => {
+                    const fields = contents[current].querySelectorAll("input[required]");
+                    const invalid = firstInvalid(fields);
+
+                    if (current === 1) {
+                        const cardVal = cardInput.value;
+                        const expiryVal = document.querySelector("input[name='Payment.Expiry']").value;
+
+                        if (!isValidCardNumber(cardVal)) {
+                            summary.textContent = "Card number must be exactly 16 digits.";
+                            summary.classList.remove("d-none");
+                            return;
+                        }
+                        if (!isValidExpiry(expiryVal)) {
+                            summary.textContent = "Invalid expiry format. Use MM/YY.";
+                            summary.classList.remove("d-none");
+                            return;
+                        }
+                    }
+
+                    if (invalid) {
+                        invalid.reportValidity();
+                        return;
+                    }
+
+                    if (current < contents.length - 1) showStep(current + 1);
+                })
+            );
+
+            document.querySelectorAll("#prevBtn").forEach(btn =>
+                btn.addEventListener("click", () => {
+                    if (current > 0) showStep(current - 1);
+                })
+            );
+
+            steps.forEach(s => s.addEventListener("click", e => {
+                const idx = +e.currentTarget.dataset.step;
+                if (idx <= current) showStep(idx);
+            }));
+
+            cardInput.addEventListener("input", () => {
+                const digits = cardInput.value.replace(/\D/g, "");
+                cardCount.textContent = `${digits.length} / 16`;
             });
-        }
 
-        // button wiring
-        document.getElementById('next1').onclick = () => { current = 1; showStep(current); };
-        document.getElementById('prev2').onclick = () => { current = 0; showStep(current); };
-        document.getElementById('next2').onclick = () => { current = 2; showStep(current); };
-        document.getElementById('prev3').onclick = () => { current = 1; showStep(current); };
+            document.getElementById("checkoutForm").addEventListener("submit", () => {
+                cardInput.value = cardInput.value.replace(/\s+/g, '');
+            });
 
-        // init
-        showStep(0);
+            showStep(0);
+        });
     </script>
 }
 
@@ -220,21 +248,43 @@
         color: var(--owl-purple);
     }
 
-    .card-title {
-        font-weight: 700;
-    }
+  .btn-owl {
+    background: var(--owl-purple);
+    color: #fff;
+    font-weight: 700;
+    padding: 0.65rem 2.2rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    box-shadow: 0 8px 24px rgba(93, 22, 193, 0.3);
+    transition: all 0.3s ease;
+}
 
-    .nav-pills .nav-link.active {
+.btn-owl:hover {
+    background: #4a0fb2; /* slightly darker purple */
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(93, 22, 193, 0.5);
+}
+
+
+   
+    .stepper .step.active {
         background: var(--owl-purple);
+        color: #fff !important;
     }
 
     .form-control:focus {
-        border-color: var(--owl-purple) !important;
-        box-shadow: 0 0 0 0.25rem var(--owl-purple-light) !important;
+        border-color: var(--owl-purple);
+        box-shadow: 0 0 0 .25rem var(--owl-purple-light);
     }
 
     .order-preview {
         max-height: 300px;
         overflow-y: auto;
+    }
+
+    #stepValidationSummary {
+        transition: all 0.3s ease;
     }
 </style>

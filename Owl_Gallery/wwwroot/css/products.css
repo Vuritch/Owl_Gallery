@@ -726,4 +726,92 @@
       padding: 0.4rem 0.75rem;
     }
   }
-  
+<style >
+:root {
+    --owl-purple: #5d16c1;
+    --owl-purple-dark: #38158d;
+    --owl-glow: rgba(93, 22, 193, 0.25);
+}
+
+.btn-owl {
+    background: var(--owl-purple);
+    color: white;
+    font-weight: 600;
+    border-radius: .5rem;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .btn-owl:hover {
+        background: var(--owl-purple-dark);
+        box-shadow: 0 0 12px var(--owl-glow);
+    }
+
+.btn-glow {
+    border: none;
+    box-shadow: 0 0 8px rgba(93, 22, 193, 0.3);
+    transition: all 0.3s ease-in-out;
+    border-radius: .5rem;
+}
+
+    .btn-glow:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 15px rgba(93, 22, 193, 0.4);
+    }
+
+.card {
+    border: none;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+    }
+
+.card-img-top {
+    object-fit: cover;
+    height: 250px;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.filters-sidebar {
+    border: 1px solid #eee;
+    border-radius: .5rem;
+}
+
+    .filters-sidebar .form-check-label {
+        font-weight: 500;
+    }
+
+.favorite-btn,
+.cart-btn {
+    transition: all 0.2s ease;
+}
+
+    .favorite-btn:hover i {
+        color: #e0245e !important;
+        transform: scale(1.2);
+    }
+
+.breadcrumb {
+    background-color: transparent;
+    font-size: 0.95rem;
+}
+
+.breadcrumb-item a {
+    color: var(--owl-purple);
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: #6c757d;
+}
+
+@media (max-width: 576px) {
+    .card-img-top {
+        height: 200px;
+    }
+}
+
+</style >

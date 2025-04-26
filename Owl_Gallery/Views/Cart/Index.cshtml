@@ -1,99 +1,134 @@
 ﻿@model IEnumerable<Owl_Gallery.Models.CartItem>
 @using System.Security.Claims
+
 @{
     ViewData["Title"] = "Your Cart";
-
-    // compute subtotal
-    decimal subtotal = Model
-        .Select(i => i.Quantity * i.Product.Price)
-        .Sum();
+    decimal subtotal = Model.Select(i => i.Quantity * i.Product.Price).Sum();
 }
 
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
-<h1 class="my-4">Your Shopping Cart</h1>
+<div class="container my-5">
+    <h1 class="mb-4 fw-bold text-owl-purple text-center animate__animated animate__fadeInDown">
+        🛒 Your Shopping Cart
+    </h1>
 
-@if (!Model.Any())
-{
-    <div class="alert alert-info">
-        Your cart is empty. <a asp-controller="Products" asp-action="Products">Continue shopping</a>.
-    </div>
-}
-else
-{
-    <table class="table align-middle">
-        <thead>
-            <tr>
-                <th>Product</th>
-                <th class="text-end">Unit Price</th>
-                <th class="text-center">Quantity</th>
-                <th class="text-end">Total</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                var lineTotal = item.Quantity * item.Product.Price;
-                <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                            <img src="@item.Product.ImageUrl"
-                                 alt="@item.ProductName"
-                                 width="60"
-                                 class="me-3 rounded" />
-                            <span>@item.ProductName</span>
-                        </div>
-                    </td>
-                    <td class="text-end">EGP @item.Product.Price.ToString("F2")</td>
-                    <td class="text-center">
-                        <form asp-action="UpdateQuantity" method="post" class="d-inline-block">
-                            @Html.AntiForgeryToken()
-                            <input type="hidden" name="productId" value="@item.ProductId" />
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info text-center p-4 rounded shadow-sm animate__animated animate__fadeIn">
+            <p class="mb-2">Your cart is currently empty.</p>
+            <a asp-controller="Products" asp-action="Products" class="btn btn-outline-purple mt-2">
+                Continue Shopping
+            </a>
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive rounded-4 overflow-hidden shadow-sm bg-white p-3 animate__animated animate__fadeIn">
+            <table class="table align-middle mb-0">
+                <thead class="bg-light text-secondary small text-uppercase">
+                    <tr>
+                        <th>Product</th>
+                        <th class="text-end">Price</th>
+                        <th class="text-center">Qty</th>
+                        <th class="text-end">Total</th>
+                        <th class="text-center">Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        var total = item.Quantity * item.Product.Price;
+                        <tr class="border-bottom">
+                            <td>
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="@item.Product.ImageUrl" alt="@item.ProductName" class="rounded shadow-sm" width="60" />
+                                    <div>
+                                        <strong class="d-block">@item.ProductName</strong>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-end text-success fw-bold">EGP @item.Product.Price.ToString("F2")</td>
+                            <td class="text-center">
+                                <form asp-action="UpdateQuantity" method="post" class="d-inline-block">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="productId" value="@item.ProductId" />
+                                    <div class="btn-group btn-group-sm" role="group">
+                                        <button type="submit" name="quantity" value="@(item.Quantity - 1)" class="btn btn-outline-secondary">−</button>
+                                        <span class="btn btn-light disabled">@item.Quantity</span>
+                                        <button type="submit" name="quantity" value="@(item.Quantity + 1)" class="btn btn-outline-secondary">+</button>
+                                    </div>
+                                </form>
+                            </td>
+                            <td class="text-end fw-semibold">EGP @total.ToString("F2")</td>
+                            <td class="text-center">
+                                <form asp-action="Remove" method="post">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="productId" value="@item.ProductId" />
+                                    <button type="submit" class="btn btn-sm text-danger" title="Remove">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr class="border-top">
+                        <td colspan="3" class="text-end fw-bold fs-5">Subtotal:</td>
+                        <td class="text-end fw-bold fs-5 text-success">EGP @subtotal.ToString("F2")</td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
 
-                            <button type="submit"
-                                    name="quantity"
-                                    value="@(item.Quantity - 1)"
-                                    class="btn btn-outline-secondary btn-sm">
-                                &minus;
-                            </button>
-                            <span class="mx-2">@item.Quantity</span>
-                            <button type="submit"
-                                    name="quantity"
-                                    value="@(item.Quantity + 1)"
-                                    class="btn btn-outline-secondary btn-sm">
-                                &#43;
-                            </button>
-                        </form>
-                    </td>
-                    <td class="text-end">EGP @lineTotal.ToString("F2")</td>
-                    <td class="text-center">
-                        <form asp-action="Remove" method="post" class="d-inline-block">
-                            @Html.AntiForgeryToken()
-                            <input type="hidden" name="productId" value="@item.ProductId" />
-                            <button type="submit" class="btn btn-link text-danger p-0" title="Remove">
-                                <i class="fas fa-trash-alt"></i>
-                            </button>
-                        </form>
-                    </td>
-                </tr>
-            }
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="3" class="text-end fw-bold">Subtotal:</td>
-                <td class="text-end fw-bold">EGP @subtotal.ToString("F2")</td>
-                <td></td>
-            </tr>
-        </tfoot>
-    </table>
+        <div class="d-flex justify-content-between mt-4">
+            <a asp-controller="Products" asp-action="Products" class="btn btn-outline-secondary btn-lg px-4 shadow-sm">
+                ← Continue Shopping
+            </a>
+            <a asp-controller="Checkout" asp-action="Index" class="btn btn-owl btn-lg px-5 shadow-sm">
+                Checkout →
+            </a>
+        </div>
+    }
+</div>
 
-    <div class="d-flex justify-content-between">
-        <a asp-controller="Products" asp-action="Products" class="btn btn-outline-secondary">
-            Continue Shopping
-        </a>
-        <a asp-controller="Checkout" asp-action="index" class="btn btn-primary">
-            Proceed to Checkout
-        </a>
-    </div>
-}
+<style>
+    .text-owl-purple {
+        color: #5d16c1;
+    }
+
+    .btn-owl {
+        background-color: #5d16c1;
+        color: #fff;
+        font-weight: 600;
+        border-radius: .5rem;
+        transition: all 0.3s ease;
+    }
+
+        .btn-owl:hover {
+            background-color: #44109b;
+            box-shadow: 0 10px 30px rgba(93, 22, 193, 0.3);
+        }
+
+    .btn-outline-purple {
+        color: #5d16c1;
+        border: 1px solid #5d16c1;
+    }
+
+        .btn-outline-purple:hover {
+            background-color: #5d16c1;
+            color: #fff;
+        }
+
+    table td, table th {
+        vertical-align: middle !important;
+    }
+
+    .btn-group .btn.disabled,
+    .btn-group .btn:disabled {
+        background-color: #f5f5f5;
+        pointer-events: none;
+    }
+</style>

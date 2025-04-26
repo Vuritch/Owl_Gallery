@@ -2,26 +2,18 @@
 @inject Owl_Gallery.Data.ApplicationDbContext _ctx
 
 @{
-    // 1) Signed-in?
-    var user = Context.User;
-    bool signedIn = user?.Identity?.IsAuthenticated == true;
-
-    // 2) Pull out their numeric ID + first name (if signed in)
-    int userId = 0;
-    string? firstName = null;
-    if (signedIn)
-    {
-        userId = int.Parse(user.FindFirstValue(ClaimTypes.NameIdentifier)!);
-        firstName = user.FindFirstValue(ClaimTypes.Name)?.Split(' ').FirstOrDefault();
-    }
-
-    // 3) DB counts
-    int favCount = signedIn
-        ? _ctx.Favorites.Count(f => f.UserId == userId)
+    // — Authentication & badge counts —
+    bool signedIn = User?.Identity?.IsAuthenticated == true;
+    int userId = signedIn
+        ? int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!)
         : 0;
-    int cartCount = signedIn
-        ? _ctx.CartItems.Count(c => c.UserId == userId)
-        : 0;
+    string? firstName = signedIn
+        ? User.FindFirstValue(ClaimTypes.Name)?.Split(' ').FirstOrDefault()
+        : null;
+
+    // — Current route —
+    var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+    var currentAction = ViewContext.RouteData.Values["action"]?.ToString();
 }
 
 <!DOCTYPE html>
@@ -36,72 +28,247 @@
     <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/animations.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/auth.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/cart-favorites.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/products.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/dark-mode.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Owl_Gallery.styles.css" asp-append-version="true" />
 
-    <!-- FontAwesome -->
+    <!-- Font Awesome -->
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 
     <style>
-        /* push page content down so fixed-top navbar doesn’t cover it */
+        /* 1) Full-height layout */
         body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
             padding-top: 70px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .content-wrap {
+            flex: 1 0 auto;
+        }
+
+        .site-footer {
+            flex-shrink: 0;
+            background: #f8f9fa;
+            padding: 1rem 0;
+        }
+
+        #welcome-banner {
+            font-size: 1.25rem;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, .08);
+        }
+
+        /* --- NAV ICON --- */
+        .nav-icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            font-size: 1.4rem;
+            color: #5d16c1;
+            cursor: pointer;
+            transition: color 0.3s;
+            text-decoration: none;
+            min-width: 3rem;
+            padding: 0.25rem 0;
+            line-height: 1.2;
+        }
+
+            .nav-icon .icon-label {
+                font-size: 0.75rem;
+                margin-top: 0.3rem;
+                line-height: 1;
+                text-align: center;
+                color: #333;
+            }
+
+            .nav-icon .badge {
+                position: absolute;
+                top: 0.2rem;
+                right: 0.2rem;
+                font-size: 0.65rem;
+                background-color: #5d16c1;
+                color: white;
+                padding: 2px 6px;
+                border-radius: 999px;
+            }
+
+            .nav-icon:hover i {
+                color: #3c0e99;
+            }
+
+            .nav-icon.dropdown-toggle::after {
+                display: none !important;
+            }
+
+        /* Dark Mode Support */
+        body.dark-mode {
+            background: #121212;
+            color: #e0e0e0;
+        }
+
+            body.dark-mode .navbar,
+            body.dark-mode .offcanvas,
+            body.dark-mode .dropdown-menu {
+                background-color: #212121 !important;
+                color: #ddd;
+            }
+
+                body.dark-mode .navbar .nav-link,
+                body.dark-mode a {
+                    color: #bb86fc !important;
+                }
+
+                    body.dark-mode .navbar .nav-link:hover,
+                    body.dark-mode .navbar .nav-link.active {
+                        color: #fff !important;
+                    }
+
+            body.dark-mode .card,
+            body.dark-mode .card-header,
+            body.dark-mode .card-body {
+                background-color: #1f1f1f;
+                color: #e0e0e0;
+            }
+
+        .nav-icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            font-size: 1.4rem;
+            color: #5d16c1;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            width: 3.5rem;
+            padding-top: 0.2rem;
+        }
+
+            .nav-icon i {
+                line-height: 1;
+            }
+
+        .icon-label {
+            font-size: 0.75rem;
+            line-height: 1;
+            text-align: center;
+            margin-top: 0.2rem;
+            color: #333;
+        }
+
+        body.dark-mode .icon-label {
+            color: #ccc;
+        }
+
+        .nav-icon .badge {
+            position: absolute;
+            top: 0.2rem;
+            right: 0.1rem;
+            font-size: 0.65rem;
+            background: #5d16c1;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 999px;
+        }
+
+        @@media (max-width: 576px) {
+            .icon-label
+
+        {
+            display: none;
+        }
+
+        }
+
+
+            body.dark-mode .icon-label {
+                color: #ccc;
+            }
+
+        /* Hide icon labels on very small screens */
+        @@media (max-width: 576px) {
+            .icon-label
+
+        {
+            display: none;
+        }
+
         }
     </style>
 </head>
 <body data-login-url="@Url.Action("Login", "Login")">
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-light bg-light fixed-top navbar-expand-lg">
-        <div class="container-fluid">
-
-            <!-- Brand -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid bg-light shadow-sm px-4 py-2">
             <a class="navbar-brand me-4" href="@Url.Action("Index","Index")">
-                <img src="~/images/logo.jpg" alt="Owl Gallery Logo" height="40" />
+                <img src="~/images/logo.jpg" alt="Owl Gallery Logo" height="40" asp-append-version="true" />
             </a>
+            <form method="get" action="@Url.Action("Products", "Products")"
+                  class="search-box d-none d-lg-flex position-relative" autocomplete="off">
+                <input name="search"
+                       id="searchInput"
+                       type="text"
+                       class="form-control rounded-pill px-4"
+                       placeholder="Search products…" />
 
-            <!-- DESKTOP SEARCH -->
-            <form class="search-box d-none d-lg-flex position-relative"
-                  method="get" action="/Products/Products">
-                <input name="search" type="text" class="form-control" placeholder="Search products…" />
-                <button class="btn"><i class="fas fa-search"></i></button>
-                <div class="search-results position-absolute bg-white border w-100"
-                     style="max-height:300px;overflow-y:auto;z-index:1055;"></div>
+                <button class="btn position-absolute end-0 top-50 translate-middle-y me-2" type="submit">
+                    <i class="fas fa-search text-purple"></i>
+                </button>
+
+                <!-- Search Dropdown -->
+                <div id="searchDropdown" class="search-results bg-white dark-mode-dropdown shadow rounded mt-2 p-3 position-absolute w-100"
+                     style="z-index: 2000; display: none;">
+                    <h6 class="text-purple fw-bold mb-3">Trending Categories</h6>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a class="btn btn-outline-secondary btn-sm rounded-pill"
+                           href="@Url.Action("Products", "Products", new { category = "Necklaces" })">Necklaces</a>
+                        <a class="btn btn-outline-secondary btn-sm rounded-pill"
+                           href="@Url.Action("Products", "Products", new { category = "Earrings" })">Earrings</a>
+                        <a class="btn btn-outline-secondary btn-sm rounded-pill"
+                           href="@Url.Action("Products", "Products", new { category = "Bracelets" })">Bracelets</a>
+                        <a class="btn btn-outline-secondary btn-sm rounded-pill"
+                           href="@Url.Action("Products", "Products", new { category = "Rings" })">Rings</a>
+                    </div>
+
+                    <div class="mt-4">
+                        <h6 class="text-purple fw-bold mb-2">Live Results</h6>
+                        <div id="liveResults" class="list-group"></div>
+                    </div>
+                </div>
             </form>
 
-            <!-- mobile hamburger -->
+
+
+
+            
+
+
+
+            <!-- Mobile Toggle -->
             <button class="navbar-toggler ms-auto" type="button"
                     data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!-- MOBILE SEARCH -->
-            <div class="mobile-search d-lg-none">
-                <form class="search-box position-relative"
-                      method="get" action="/Products/Products">
-                    <input name="search" type="text" class="form-control"
-                           placeholder="Search products…" />
-                    <button class="btn"><i class="fas fa-search"></i></button>
-                    <div class="search-results position-absolute bg-white border w-100"
-                         style="max-height:300px;overflow-y:auto;z-index:1055;"></div>
-                </form>
-            </div>
-
-            <!-- Offcanvas menu -->
+            <!-- Offcanvas Menu -->
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title">Menu</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-center flex-grow-1">
-                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Index","Index")">NEW IN</a></li>
-                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Products","Products")">SHOP ALL</a></li>
+                    <ul class="navbar-nav justify-content-center flex-grow-1 gap-3">
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Index","Index")">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Products","Products")">Shop All</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">CATEGORIES</a>
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Categories</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="@Url.Action("Products","Products", new { category="Necklaces" })">Necklaces</a></li>
                                 <li><a class="dropdown-item" href="@Url.Action("Products","Products", new { category="Earrings"  })">Earrings</a></li>
@@ -109,90 +276,210 @@
                                 <li><a class="dropdown-item" href="@Url.Action("Products","Products", new { category="Rings"     })">Rings</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Products","Products", new { filter="collections" })">COLLECTIONS</a></li>
-                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Products","Products", new { filter="sale" })">SALE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Products","Products", new { filter="sale" })">Sale</a></li>
                     </ul>
                 </div>
             </div>
 
-            <!-- RIGHT-HAND ICONS -->
-            <div class="d-flex align-items-center ms-3">
+            <!-- Right-hand Icons & Theme Toggle -->
+            <div class="nav-icons d-flex gap-3 align-items-center text-center">
 
-                <!-- country/currency -->
-                <div class="dropdown country-select d-none d-lg-block me-3">
-                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                        <img src="~/images/egypt_flag.jpg" class="flag-icon" alt="Egypt" /> EGP
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#"><img src="~/images/egypt_flag.jpg" class="flag-icon" /> EGP</a></li>
-                    </ul>
-                </div>
-
-                @* Account / Logout *@
                 @if (!signedIn)
                 {
-                    <a class="nav-icon me-3" href="@Url.Action("Login","Login")">
-                        <i class="fas fa-user"></i>
-                    </a>
+                    <!-- GUEST VIEW -->
+                    <div class="dropdown">
+                        <div class="nav-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" title="Account" role="button">
+                            <i class="fas fa-user-circle"></i>
+                            <div class="icon-label">Account</div>
+                        </div>
+                        <ul class="dropdown-menu dropdown-menu-end shadow">
+                            <li>
+                                <a class="dropdown-item" href="@Url.Action("Login", "Login")">
+                                    <i class="fas fa-sign-in-alt text-purple me-2"></i> Log In
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="@Url.Action("Register", "Register")">
+                                    <i class="fas fa-user-plus text-purple me-2"></i> Register
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 }
                 else
                 {
-                    <span class="navbar-text me-3 fw-semibold text-owl">
-                        Welcome, @firstName!
-                    </span>
-                    <form asp-controller="Login" asp-action="Logout" method="post" class="me-3">
-                        @Html.AntiForgeryToken()
-                        <button type="submit" class="btn btn-link nav-icon p-0" title="Logout">
-                            <i class="fas fa-sign-out-alt"></i>
-                        </button>
-                    </form>
+                    <!-- LOGGED-IN VIEW -->
+                    <div class="dropdown">
+                        <a class="nav-icon dropdown-toggle p-0 d-flex flex-column align-items-center"
+                           href="#"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            <i class="fas fa-user-circle fa-lg"></i>
+                            <span class="icon-label text-nowrap">@firstName</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end shadow">
+                            <li>
+                                <a class="dropdown-item" href="@Url.Action("Index", "Profile")">
+                                    <i class="fas fa-user me-2"></i> My Account
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="@Url.Action("Orders", "Profile")">
+                                    <i class="fas fa-box me-2"></i> My Orders
+                                </a>
+                            </li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li>
+                                <form asp-controller="Login" asp-action="Logout" method="post" class="dropdown-item p-0 m-0">
+                                    @Html.AntiForgeryToken()
+                                    <button type="submit" class="btn btn-link text-start w-100 p-2" style="color: inherit;">
+                                        <i class="fas fa-sign-out-alt me-2"></i> Sign Out
+                                    </button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Wishlist -->
+                    <a class="nav-icon d-flex flex-column align-items-center position-relative"
+                       href="@Url.Action("Index", "Favorites")" title="Wishlist">
+                        <i class="fas fa-heart"></i>
+                        @if (_ctx.Favorites.Count(f => f.UserId == userId) > 0)
+                        {
+                            <span class="badge">@_ctx.Favorites.Count(f => f.UserId == userId)</span>
+                        }
+                        <span class="icon-label">Wishlist</span>
+                    </a>
+
+                    <!-- Cart -->
+                    <a class="nav-icon d-flex flex-column align-items-center position-relative"
+                       href="@Url.Action("Index", "Cart")" title="Cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        @if (_ctx.CartItems.Count(c => c.UserId == userId) > 0)
+                        {
+                            <span class="badge">@_ctx.CartItems.Count(c => c.UserId == userId)</span>
+                        }
+                        <span class="icon-label">Cart</span>
+                    </a>
                 }
 
-                @* Favorites *@
-                <a class="nav-icon me-3" href="@Url.Action("Index","Favorites")">
-                    <i class="fas fa-heart"></i>
-                    @if (signedIn)
-                    {
-                        <span class="badge bg-secondary">@favCount</span>
-                    }
-                </a>
-
-                @* Cart *@
-                <a class="nav-icon" href="@Url.Action("Index","Cart")">
-                    <i class="fas fa-shopping-cart"></i>
-                    @if (signedIn)
-                    {
-                        <span class="badge bg-secondary">@cartCount</span>
-                    }
-                </a>
+                <!-- Dark Mode Toggle -->
+                <button id="themeToggle"
+                        class="btn btn-link nav-icon d-flex flex-column align-items-center p-0"
+                        title="Toggle Theme">
+                    <i id="themeIcon" class="fas fa-moon"></i>
+                    <span class="icon-label">Theme</span>
+                </button>
             </div>
+
         </div>
     </nav>
-    <!-- END NAVBAR -->
 
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <!-- One-time Welcome Banner on Home/Index -->
+    @if (currentController == "Index"
+    && currentAction == "Index"
+    && !string.IsNullOrEmpty(firstName))
+    {
+        <div style="margin-top: 0 !important; padding-top: 0 !important;">
+            <div id="welcome-banner" class="alert alert-success text-center mb-4">
+                👋 Welcome back, <strong>@firstName</strong>!
+            </div>
+        </div>
+
+    }
+
+    <!-- MAIN CONTENT -->
+    <div class="content-wrap">
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <!-- STICKY FOOTER -->
+    <footer class="site-footer text-center">
         <div class="container">
-            © 2025 – Owl_Gallery – <a asp-controller="Privacy" asp-action="Privacy">Privacy</a>
+            <small class="text-muted">
+                &copy; @DateTime.Now.Year &ndash; Owl_Gallery
+            </small>
         </div>
     </footer>
 
-    <!-- SCRIPTS -->
+    <!-- Scripts -->
     <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="~/js/main.js" asp-append-version="true"></script>
     <script src="~/js/search.js" asp-append-version="true"></script>
     <script src="~/js/animations.js" asp-append-version="true"></script>
     <script src="~/js/auth.js" asp-append-version="true"></script>
-    <script src="~/js/cart-favorites.js" asp-append-version="true"></script>
-    <script src="~/js/products.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
 
     @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+               let lastScrollTop = 0;
+        const navbar = document.querySelector('.navbar');
+
+        window.addEventListener('scroll', function () {
+          const scrollTop = window.scrollY || document.documentElement.scrollTop;
+
+          if (scrollTop > lastScrollTop) {
+            // Scrolling down
+            navbar.classList.add('navbar-hidden');
+          } else {
+            // Scrolling up
+            navbar.classList.remove('navbar-hidden');
+          }
+
+          lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+        });
+        // One-time welcome banner fade-out
+        document.addEventListener("DOMContentLoaded", () => {
+          const b = document.getElementById("welcome-banner");
+          if (!b) return;
+          if (sessionStorage.getItem("welcomeShown")) {
+            b.remove();
+            return;
+          }
+          sessionStorage.setItem("welcomeShown","true");
+          setTimeout(() => {
+            b.style.transition = "opacity .5s ease-out";
+            b.style.opacity = 0;
+            b.addEventListener("transitionend", () => b.remove());
+          }, 5000);
+        });
+
+        // Light / Dark toggle
+        (function(){
+          const body   = document.body;
+          const toggle = document.getElementById("themeToggle");
+          const icon   = document.getElementById("themeIcon");
+          const key    = "site-theme";
+          let theme    = localStorage.getItem(key) || "light";
+
+          function apply(t){
+            if (t === "dark") {
+              body.classList.add("dark-mode");
+              icon.className = "fas fa-sun";
+            } else {
+              body.classList.remove("dark-mode");
+              icon.className = "fas fa-moon";
+            }
+          }
+
+          apply(theme);
+
+          toggle.addEventListener("click", () => {
+            theme = body.classList.toggle("dark-mode") ? "dark" : "light";
+            localStorage.setItem(key, theme);
+            apply(theme);
+          });
+        })();
+    </script>
 </body>
 </html>

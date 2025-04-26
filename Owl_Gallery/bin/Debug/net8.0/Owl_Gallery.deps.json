@@ -9,6 +9,7 @@
       "Owl_Gallery/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Cookies": "2.3.0",
+          "Microsoft.AspNetCore.Authentication.Google": "8.0.15",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.15",
           "Microsoft.EntityFrameworkCore.Design": "9.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.4",
@@ -622,6 +623,14 @@
           "Microsoft.AspNetCore.Authentication.Abstractions": "2.3.0",
           "Microsoft.AspNetCore.Http": "2.3.0",
           "Microsoft.AspNetCore.Http.Extensions": "2.3.0"
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/8.0.15": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "8.0.15.0",
+            "fileVersion": "8.0.1525.16505"
+          }
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/2.3.0": {},
@@ -2644,6 +2653,13 @@
       "sha512": "sha512-gnLnKGawBjqBnU9fEuel3VcYAARkjyONAliaGDfMc8o8HBtfh+HrOPEoR8Xx4b2RnMb7uxdBDOvEAC7sul79ig==",
       "path": "microsoft.aspnetcore.authentication.core/2.3.0",
       "hashPath": "microsoft.aspnetcore.authentication.core.2.3.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/8.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AjlL4AAfH7UZ1L4wYxUABd50aD2E1svyqa02fpsjMcjX3utqvHXwBceIyrI4X9ulfzRytE/BcbV2QTzn73/93w==",
+      "path": "microsoft.aspnetcore.authentication.google/8.0.15",
+      "hashPath": "microsoft.aspnetcore.authentication.google.8.0.15.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/2.3.0": {
       "type": "package",

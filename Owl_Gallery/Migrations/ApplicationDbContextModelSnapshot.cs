@@ -140,8 +140,6 @@ namespace Owl_Gallery.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId");
-
                     b.ToTable("Orders");
                 });
 
@@ -199,6 +197,9 @@ namespace Owl_Gallery.Migrations
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -268,17 +269,6 @@ namespace Owl_Gallery.Migrations
                         .IsRequired();
 
                     b.Navigation("Product");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("Owl_Gallery.Models.Order", b =>
-                {
-                    b.HasOne("Owl_Gallery.Models.Register", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
 
                     b.Navigation("User");
                 });
