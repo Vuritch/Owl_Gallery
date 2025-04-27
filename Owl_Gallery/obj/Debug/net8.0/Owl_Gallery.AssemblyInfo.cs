@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Owl_Gallery")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd2c2119391044ec670c1320de5a64f99f856f0a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df5417740c0ffbd24c0d7f98a9af543ce4ecacb9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Owl_Gallery")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Owl_Gallery")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

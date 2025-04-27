@@ -9,7 +9,7 @@ namespace Owl_Gallery.Models
         public string Name { get; set; }
 
         [Required, MaxLength(50)]
-        public string Category { get; set; }         // Necklaces, Rings …
+        public string Category { get; set; }
 
         [Range(0, 99999)]
         public decimal Price { get; set; }

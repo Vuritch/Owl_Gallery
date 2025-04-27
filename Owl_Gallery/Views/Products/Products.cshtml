@@ -65,22 +65,20 @@
                                value="@search" />
                     </div>
 
-                    <!-- Category -->
+                    <!-- Category (Fix from checkbox to dropdown) -->
                     <div class="mb-3">
                         <label class="form-label">Category</label>
-                        @foreach (var cat in new[] { "Necklaces", "Earrings", "Bracelets", "Rings" })
-                        {
-                            <div class="form-check">
-                                <input class="form-check-input"
-                                       type="checkbox"
-                                       name="category"
-                                       value="@cat"
-                                       id="cat-@cat"
-                                       checked="@(cat == category)" />
-                                <label class="form-check-label" for="cat-@cat">@cat</label>
-                            </div>
-                        }
+                        <select name="category" class="form-select">
+                            <option value="">All Categories</option>
+                            @foreach (var cat in new[] { "Necklaces", "Earrings", "Bracelets", "Rings" })
+                            {
+                                <option value="@cat" selected="@(cat == category)">
+                                    @cat
+                                </option>
+                            }
+                        </select>
                     </div>
+
 
                     <!-- Sort -->
                     <div class="mb-3">

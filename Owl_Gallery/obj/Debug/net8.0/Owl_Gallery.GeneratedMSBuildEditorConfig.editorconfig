@@ -17,77 +17,105 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Owl_Gallery
 build_property.RootNamespace = Owl_Gallery
-build_property.ProjectDir = C:\Users\omara\Desktop\Owl_Gallery\Owl_Gallery\
+build_property.ProjectDir = C:\Users\omara\Desktop\Owl_Gallery11\Owl_Gallery\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\omara\Desktop\Owl_Gallery\Owl_Gallery
+build_property.MSBuildProjectDirectory = C:\Users\omara\Desktop\Owl_Gallery11\Owl_Gallery
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/omara/Desktop/Owl_Gallery/Owl_Gallery/Views/Cart/Index.cshtml]
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Admin/CreateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Admin/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Admin/EditProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Admin/ManageOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Admin/ManageProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Admin/ManageUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/omara/Desktop/Owl_Gallery/Owl_Gallery/Views/Checkout/Index.cshtml]
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Checkout/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/omara/Desktop/Owl_Gallery/Owl_Gallery/Views/Checkout/ThankYou.cshtml]
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Checkout/ThankYou.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcVGhhbmtZb3UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/omara/Desktop/Owl_Gallery/Owl_Gallery/Views/Favorites/Index.cshtml]
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Favorites/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/omara/Desktop/Owl_Gallery/Owl_Gallery/Views/Index/Index.cshtml]
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Index/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/omara/Desktop/Owl_Gallery/Owl_Gallery/Views/Login/Login.cshtml]
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/omara/Desktop/Owl_Gallery/Owl_Gallery/Views/Privacy.cshtml]
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/omara/Desktop/Owl_Gallery/Owl_Gallery/Views/Products/Products.cshtml]
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Products/Products.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUHJvZHVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/omara/Desktop/Owl_Gallery/Owl_Gallery/Views/Profile/Index.cshtml]
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Profile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/omara/Desktop/Owl_Gallery/Owl_Gallery/Views/Profile/Orders.cshtml]
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Profile/Orders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxPcmRlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/omara/Desktop/Owl_Gallery/Owl_Gallery/Views/Register/Register.cshtml]
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Register/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/omara/Desktop/Owl_Gallery/Owl_Gallery/Views/Shared/Error.cshtml]
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/omara/Desktop/Owl_Gallery/Owl_Gallery/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/omara/Desktop/Owl_Gallery/Owl_Gallery/Views/_ViewImports.cshtml]
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/omara/Desktop/Owl_Gallery/Owl_Gallery/Views/_ViewStart.cshtml]
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/omara/Desktop/Owl_Gallery/Owl_Gallery/Views/Shared/_Layout.cshtml]
+[C:/Users/omara/Desktop/Owl_Gallery11/Owl_Gallery/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lvek90fll7

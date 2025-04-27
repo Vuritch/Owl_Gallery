@@ -18,10 +18,11 @@ namespace Owl_Gallery.Controllers.Store
             var q = _ctx.Products.AsQueryable();
 
             if (!string.IsNullOrEmpty(category))
-                q = q.Where(p => p.Category == category);
+                q = q.Where(p => p.Category.Contains(category));
 
             if (!string.IsNullOrEmpty(search))
-                q = q.Where(p => p.Name.Contains(search));
+                q = q.Where(p => p.Name.Contains(search) || p.Category.Contains(search));
+
 
             ViewBag.Category = category;
             ViewBag.Search = search;
@@ -36,22 +37,27 @@ namespace Owl_Gallery.Controllers.Store
             return product == null ? NotFound() : View(product);
         }
 
-        // GET: /Products/SearchLive?query=...
         [HttpGet]
         public JsonResult SearchLive(string query)
         {
+            if (string.IsNullOrWhiteSpace(query))
+                return Json(new List<object>());
+
             var results = _ctx.Products
-                .Where(p => p.Name.Contains(query))
+                .Where(p => p.Name.Contains(query) || p.Category.Contains(query))
                 .Select(p => new {
                     id = p.Id,
                     name = p.Name,
-                    category = p.Category
+                    category = p.Category,
+                    imageUrl = p.ImageUrl,   // (Optional if you want photo preview)
+                    price = p.Price
                 })
                 .Take(10)
                 .ToList();
 
             return Json(results);
         }
+
 
         // GET: /Products/Typeahead?q=...
         [HttpGet]

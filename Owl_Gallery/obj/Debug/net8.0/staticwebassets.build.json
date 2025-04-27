@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Yd8y/tfas5VU9O0LlA1/vpunuAFIPQT+qCwRfnrZr3Y=",
+  "Hash": "0O8nl/58mcIdm8R7B0J45eWP8818WKtJyg4AB/NBMpw=",
   "Source": "Owl_Gallery",
   "BasePath": "_content/Owl_Gallery",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Owl_Gallery\\wwwroot",
       "Source": "Owl_Gallery",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Owl_Gallery.styles.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Owl_Gallery.styles.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "Owl_Gallery#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "J3iN8rsfOFbDp5TS53+KhFzFkOx/qFwzX98YXOvkH3I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Owl_Gallery.styles.css"
+      "OriginalItemSpec": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Owl_Gallery.styles.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Owl_Gallery.bundle.scp.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Owl_Gallery.bundle.scp.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "Owl_Gallery#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "J3iN8rsfOFbDp5TS53+KhFzFkOx/qFwzX98YXOvkH3I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Owl_Gallery.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Owl_Gallery.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\animations.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\animations.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "css/animations#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\animations.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\auth.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\auth.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "css/auth#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\css\\auth.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\dark-mode.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\dark-mode.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "css/dark-mode#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\css\\dark-mode.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\products.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\products.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "css/products#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\css\\products.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\site.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\style.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "css/style#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -199,17 +199,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ynu5dzneec",
-      "Integrity": "frM1CYuTMaIZEqSNqc0FBmH7KF+e3lRISjJ+wxx2rEk=",
+      "Fingerprint": "u65o9w6wli",
+      "Integrity": "RrmrSankY5xYGtcnPRGfkZViZk2UOkZeWq3V2DsupZ4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\favicon.ico",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\egypt_flag.jpg",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\egypt_flag.jpg",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "images/egypt_flag#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\images\\egypt_flag.jpg"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\homeMain.jpg",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\homeMain.jpg",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "images/homeMain#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\images\\homeMain.jpg"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\logo.jpg",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\logo.jpg",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "images/logo#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.jpg"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\pexels-content-prod-co-5594288.jpg",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\pexels-content-prod-co-5594288.jpg",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "images/pexels-content-prod-co-5594288#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pexels-content-prod-co-5594288.jpg"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\pexels-juliasakelli-1342502.jpg",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\pexels-juliasakelli-1342502.jpg",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "images/pexels-juliasakelli-1342502#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pexels-juliasakelli-1342502.jpg"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\pexels-karolina-grabowska-5201935.jpg",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\pexels-karolina-grabowska-5201935.jpg",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "images/pexels-karolina-grabowska-5201935#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pexels-karolina-grabowska-5201935.jpg"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\pexels-leah-newhouse-50725-325527.jpg",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\pexels-leah-newhouse-50725-325527.jpg",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "images/pexels-leah-newhouse-50725-325527#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pexels-leah-newhouse-50725-325527.jpg"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\pexels-mrreporter-865635.jpg",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\pexels-mrreporter-865635.jpg",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "images/pexels-mrreporter-865635#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pexels-mrreporter-865635.jpg"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\us_flag.jpg",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\us_flag.jpg",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "images/us_flag#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\us_flag.jpg"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\js\\animations.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\js\\animations.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "js/animations#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\js\\animations.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\js\\auth.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\js\\auth.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "js/auth#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\js\\auth.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\js\\bootstrap.bundle.min.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\js\\search.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\js\\search.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "js/search#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -493,17 +493,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qfcp742go4",
-      "Integrity": "NiL6gYxppXR0fJSFPK8rK6h/O9y+AMK2ejvsFR0swkA=",
+      "Fingerprint": "jz6zrtoi5b",
+      "Integrity": "H52Mq5KKbytvGricitJE0nRrC6czjPw2OOsCexstxRo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\search.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -857,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -878,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -899,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -920,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -962,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -983,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1004,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1025,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1046,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1067,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1109,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1130,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1151,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1172,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1193,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1235,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1256,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1298,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1319,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1382,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1403,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1424,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1466,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1487,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1508,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1529,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1550,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1571,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1592,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1634,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1655,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1676,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Owl_Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\",
       "BasePath": "_content/Owl_Gallery",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1700,7 +1700,7 @@
   "Endpoints": [
     {
       "Route": "css/animations.5x4i8i5df2.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\animations.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\animations.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1745,7 +1745,7 @@
     },
     {
       "Route": "css/animations.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\animations.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\animations.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1782,7 +1782,7 @@
     },
     {
       "Route": "css/auth.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\auth.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\auth.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1819,7 +1819,7 @@
     },
     {
       "Route": "css/auth.g6flrfxcly.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\auth.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\auth.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1864,7 +1864,7 @@
     },
     {
       "Route": "css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1901,7 +1901,7 @@
     },
     {
       "Route": "css/bootstrap.min.ik4heq9zur.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1946,7 +1946,7 @@
     },
     {
       "Route": "css/dark-mode.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\dark-mode.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\dark-mode.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1983,7 +1983,7 @@
     },
     {
       "Route": "css/dark-mode.logyjmi7tx.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\dark-mode.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\dark-mode.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2028,7 +2028,7 @@
     },
     {
       "Route": "css/products.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\products.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\products.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2065,7 +2065,7 @@
     },
     {
       "Route": "css/products.vjm3h93j97.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\products.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\products.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2110,7 +2110,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2147,7 +2147,7 @@
     },
     {
       "Route": "css/site.phiqn218ee.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2192,7 +2192,7 @@
     },
     {
       "Route": "css/style.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\style.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2201,7 +2201,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21444"
+          "Value": "21540"
         },
         {
           "Name": "Content-Type",
@@ -2209,11 +2209,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"frM1CYuTMaIZEqSNqc0FBmH7KF+e3lRISjJ+wxx2rEk=\""
+          "Value": "\"RrmrSankY5xYGtcnPRGfkZViZk2UOkZeWq3V2DsupZ4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 03:15:05 GMT"
+          "Value": "Sun, 27 Apr 2025 05:40:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2223,13 +2223,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-frM1CYuTMaIZEqSNqc0FBmH7KF+e3lRISjJ+wxx2rEk="
+          "Value": "sha256-RrmrSankY5xYGtcnPRGfkZViZk2UOkZeWq3V2DsupZ4="
         }
       ]
     },
     {
-      "Route": "css/style.ynu5dzneec.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\css\\style.css",
+      "Route": "css/style.u65o9w6wli.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2238,7 +2238,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21444"
+          "Value": "21540"
         },
         {
           "Name": "Content-Type",
@@ -2246,11 +2246,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"frM1CYuTMaIZEqSNqc0FBmH7KF+e3lRISjJ+wxx2rEk=\""
+          "Value": "\"RrmrSankY5xYGtcnPRGfkZViZk2UOkZeWq3V2DsupZ4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 03:15:05 GMT"
+          "Value": "Sun, 27 Apr 2025 05:40:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2260,7 +2260,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ynu5dzneec"
+          "Value": "u65o9w6wli"
         },
         {
           "Name": "label",
@@ -2268,13 +2268,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-frM1CYuTMaIZEqSNqc0FBmH7KF+e3lRISjJ+wxx2rEk="
+          "Value": "sha256-RrmrSankY5xYGtcnPRGfkZViZk2UOkZeWq3V2DsupZ4="
         }
       ]
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2319,7 +2319,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2356,7 +2356,7 @@
     },
     {
       "Route": "images/egypt_flag.36z4kkvjn7.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\egypt_flag.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\egypt_flag.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2401,7 +2401,7 @@
     },
     {
       "Route": "images/egypt_flag.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\egypt_flag.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\egypt_flag.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2438,7 +2438,7 @@
     },
     {
       "Route": "images/homeMain.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\homeMain.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\homeMain.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2475,7 +2475,7 @@
     },
     {
       "Route": "images/homeMain.lrib1yxhs3.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\homeMain.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\homeMain.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2520,7 +2520,7 @@
     },
     {
       "Route": "images/logo.j022dm8515.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\logo.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\logo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2565,7 +2565,7 @@
     },
     {
       "Route": "images/logo.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\logo.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\logo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2602,7 +2602,7 @@
     },
     {
       "Route": "images/pexels-content-prod-co-5594288.1efatpb1rd.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\pexels-content-prod-co-5594288.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\pexels-content-prod-co-5594288.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2647,7 +2647,7 @@
     },
     {
       "Route": "images/pexels-content-prod-co-5594288.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\pexels-content-prod-co-5594288.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\pexels-content-prod-co-5594288.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2684,7 +2684,7 @@
     },
     {
       "Route": "images/pexels-juliasakelli-1342502.2qstzjfy1w.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\pexels-juliasakelli-1342502.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\pexels-juliasakelli-1342502.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2729,7 +2729,7 @@
     },
     {
       "Route": "images/pexels-juliasakelli-1342502.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\pexels-juliasakelli-1342502.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\pexels-juliasakelli-1342502.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2766,7 +2766,7 @@
     },
     {
       "Route": "images/pexels-karolina-grabowska-5201935.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\pexels-karolina-grabowska-5201935.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\pexels-karolina-grabowska-5201935.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2803,7 +2803,7 @@
     },
     {
       "Route": "images/pexels-karolina-grabowska-5201935.woq28hdvhu.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\pexels-karolina-grabowska-5201935.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\pexels-karolina-grabowska-5201935.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2848,7 +2848,7 @@
     },
     {
       "Route": "images/pexels-leah-newhouse-50725-325527.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\pexels-leah-newhouse-50725-325527.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\pexels-leah-newhouse-50725-325527.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2885,7 +2885,7 @@
     },
     {
       "Route": "images/pexels-leah-newhouse-50725-325527.o8fkqots02.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\pexels-leah-newhouse-50725-325527.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\pexels-leah-newhouse-50725-325527.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2930,7 +2930,7 @@
     },
     {
       "Route": "images/pexels-mrreporter-865635.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\pexels-mrreporter-865635.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\pexels-mrreporter-865635.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2967,7 +2967,7 @@
     },
     {
       "Route": "images/pexels-mrreporter-865635.w0bhh1ihep.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\pexels-mrreporter-865635.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\pexels-mrreporter-865635.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3012,7 +3012,7 @@
     },
     {
       "Route": "images/us_flag.iinywxirvp.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\us_flag.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\us_flag.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3057,7 +3057,7 @@
     },
     {
       "Route": "images/us_flag.jpg",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\images\\us_flag.jpg",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\images\\us_flag.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3094,7 +3094,7 @@
     },
     {
       "Route": "js/animations.6tkf13l2xg.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\js\\animations.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\js\\animations.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3139,7 +3139,7 @@
     },
     {
       "Route": "js/animations.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\js\\animations.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\js\\animations.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3176,7 +3176,7 @@
     },
     {
       "Route": "js/auth.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\js\\auth.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\js\\auth.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3213,7 +3213,7 @@
     },
     {
       "Route": "js/auth.p4pgdoi86a.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\js\\auth.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\js\\auth.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3258,7 +3258,7 @@
     },
     {
       "Route": "js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3295,7 +3295,7 @@
     },
     {
       "Route": "js/bootstrap.bundle.min.q4xmxsg841.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3340,7 +3340,7 @@
     },
     {
       "Route": "js/search.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\js\\search.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\js\\search.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3349,7 +3349,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2044"
+          "Value": "3539"
         },
         {
           "Name": "Content-Type",
@@ -3357,11 +3357,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NiL6gYxppXR0fJSFPK8rK6h/O9y+AMK2ejvsFR0swkA=\""
+          "Value": "\"H52Mq5KKbytvGricitJE0nRrC6czjPw2OOsCexstxRo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 00:14:52 GMT"
+          "Value": "Sun, 27 Apr 2025 05:45:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3371,13 +3371,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NiL6gYxppXR0fJSFPK8rK6h/O9y+AMK2ejvsFR0swkA="
+          "Value": "sha256-H52Mq5KKbytvGricitJE0nRrC6czjPw2OOsCexstxRo="
         }
       ]
     },
     {
-      "Route": "js/search.qfcp742go4.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\js\\search.js",
+      "Route": "js/search.jz6zrtoi5b.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\js\\search.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3386,7 +3386,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2044"
+          "Value": "3539"
         },
         {
           "Name": "Content-Type",
@@ -3394,11 +3394,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NiL6gYxppXR0fJSFPK8rK6h/O9y+AMK2ejvsFR0swkA=\""
+          "Value": "\"H52Mq5KKbytvGricitJE0nRrC6czjPw2OOsCexstxRo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 00:14:52 GMT"
+          "Value": "Sun, 27 Apr 2025 05:45:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3408,7 +3408,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qfcp742go4"
+          "Value": "jz6zrtoi5b"
         },
         {
           "Name": "label",
@@ -3416,13 +3416,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NiL6gYxppXR0fJSFPK8rK6h/O9y+AMK2ejvsFR0swkA="
+          "Value": "sha256-H52Mq5KKbytvGricitJE0nRrC6czjPw2OOsCexstxRo="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3459,7 +3459,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3504,7 +3504,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3541,7 +3541,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3586,7 +3586,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3623,7 +3623,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3668,7 +3668,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3705,7 +3705,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3750,7 +3750,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3787,7 +3787,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3832,7 +3832,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3869,7 +3869,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3914,7 +3914,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3951,7 +3951,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3996,7 +3996,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4033,7 +4033,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4078,7 +4078,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4123,7 +4123,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4160,7 +4160,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4197,7 +4197,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4242,7 +4242,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4279,7 +4279,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4324,7 +4324,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4361,7 +4361,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4406,7 +4406,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4443,7 +4443,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4488,7 +4488,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4525,7 +4525,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4562,7 +4562,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4599,7 +4599,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4644,7 +4644,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4689,7 +4689,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4734,7 +4734,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4779,7 +4779,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4816,7 +4816,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4861,7 +4861,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4898,7 +4898,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4935,7 +4935,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4972,7 +4972,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5017,7 +5017,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5062,7 +5062,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5107,7 +5107,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5144,7 +5144,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5189,7 +5189,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5226,7 +5226,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5263,7 +5263,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5300,7 +5300,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5345,7 +5345,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5390,7 +5390,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5427,7 +5427,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5472,7 +5472,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5509,7 +5509,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5554,7 +5554,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5591,7 +5591,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5628,7 +5628,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5673,7 +5673,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5718,7 +5718,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5755,7 +5755,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5800,7 +5800,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5837,7 +5837,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5874,7 +5874,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5919,7 +5919,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5956,7 +5956,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6001,7 +6001,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6046,7 +6046,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6083,7 +6083,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6128,7 +6128,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6165,7 +6165,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6210,7 +6210,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6255,7 +6255,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6292,7 +6292,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6337,7 +6337,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6374,7 +6374,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6411,7 +6411,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6456,7 +6456,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6493,7 +6493,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6538,7 +6538,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6575,7 +6575,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6612,7 +6612,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6657,7 +6657,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6702,7 +6702,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6739,7 +6739,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6784,7 +6784,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6821,7 +6821,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6858,7 +6858,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6895,7 +6895,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6940,7 +6940,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6985,7 +6985,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7030,7 +7030,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7067,7 +7067,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7112,7 +7112,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7157,7 +7157,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7194,7 +7194,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7239,7 +7239,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7284,7 +7284,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7321,7 +7321,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7358,7 +7358,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7403,7 +7403,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7440,7 +7440,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7485,7 +7485,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7522,7 +7522,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7567,7 +7567,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7604,7 +7604,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7641,7 +7641,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7686,7 +7686,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7723,7 +7723,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7768,7 +7768,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7805,7 +7805,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7850,7 +7850,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7895,7 +7895,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7932,7 +7932,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7977,7 +7977,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8014,7 +8014,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8059,7 +8059,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8096,7 +8096,7 @@
     },
     {
       "Route": "Owl_Gallery.59hu54qiii.bundle.scp.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Owl_Gallery.bundle.scp.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Owl_Gallery.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8141,7 +8141,7 @@
     },
     {
       "Route": "Owl_Gallery.59hu54qiii.styles.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Owl_Gallery.styles.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Owl_Gallery.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8186,7 +8186,7 @@
     },
     {
       "Route": "Owl_Gallery.bundle.scp.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Owl_Gallery.bundle.scp.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Owl_Gallery.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8223,7 +8223,7 @@
     },
     {
       "Route": "Owl_Gallery.styles.css",
-      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Owl_Gallery.styles.css",
+      "AssetFile": "C:\\Users\\omara\\Desktop\\Owl_Gallery11\\Owl_Gallery\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Owl_Gallery.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
